@@ -93,15 +93,20 @@ body {
   font-weight: 500;
 }
 .profile-container h2 {
-  font-size: 35px;
+  font-size: 33px;
   font-weight: 100;
+}
+.profile-container .bio {
+  width: 60%;
+  margin-top: 20px;
+  text-align: center;
 }
 .profile-container button {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   border: 1px solid black;
-  width: 170px;
+  width: 240px;
   height: 40px;
   background: #F8F7F3;
   border-radius: 10px;

@@ -94,8 +94,14 @@
     }
 
     h2 {
-        font-size: 35px;
+        font-size: 33px;
         font-weight: 100;
+    }
+
+    .bio {
+        width: 60%;
+        margin-top: 20px;
+        text-align: center;
     }
 
     button {
@@ -103,7 +109,7 @@
         align-items: center;
         justify-content: space-evenly;
         border: 1px solid black;
-        width: 170px;
+        width: 240px;
         height: 40px;
         background: $beige;
         border-radius: 10px;
