@@ -99,7 +99,7 @@
     }
 
     .bio {
-        width: 60%;
+        width: 840px;
         margin-top: 20px;
         text-align: center;
     }
@@ -109,7 +109,7 @@
         align-items: center;
         justify-content: space-evenly;
         border: 1px solid black;
-        width: 240px;
+        width: 180px;
         height: 40px;
         background: $beige;
         border-radius: 10px;
@@ -125,11 +125,11 @@
     }
 
     .blackline {
-        width: 300px;
+        width: 350px;
         height: 1px;
         border-radius: 10px;
         background-color: black;
-        margin-top: 40px;
+        margin-top: 20px;
     }
 }
 
@@ -159,6 +159,7 @@
 
         display: flex;
         justify-content: space-evenly;
+        flex-wrap: wrap;
         margin-top: 50px;
 
         .project-box {
