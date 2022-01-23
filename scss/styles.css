@@ -14,6 +14,8 @@
 
 body {
   background-color: #F8F7F3;
+  background-image: radial-gradient(lightgray 5.5%, transparent 0);
+  background-size: 30px 30px;
 }
 
 .psa {
