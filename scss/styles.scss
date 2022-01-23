@@ -1,0 +1,70 @@
+@import "general.scss";
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color: #F8F7F3;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+
+    .left-elements {
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+
+        img {
+            width: 40px;
+        }
+
+        span {
+            margin-left: 20px;
+            font-weight: bold;
+        }
+    }
+
+    .middle-elements {
+
+        display: flex;
+        align-items: center;
+
+        span {
+            margin: 0 20px 0 20px;
+            font-weight: bold;
+        }
+    }
+
+    .right-elements {
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+
+        img {
+            width: 30px;
+            margin-right: 10px;
+        }
+
+        button {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            border: 1px solid black;
+            width: 110px;
+            height: 30px;
+            background: transparent;
+            border-radius: 6px;
+            padding: 5px;
+            
+            span {
+                width: 20px;
+            }
+
+
+
+        }
+
+
+    }
+
+
+}

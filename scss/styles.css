@@ -1,3 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+}
 
+body {
+  background-color: #F8F7F3;
+}
+
+.psa {
+  position: absolute;
+}
+
+.psr {
+  position: relative;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  background-color: #F8F7F3;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.header-container .left-elements {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+.header-container .left-elements img {
+  width: 40px;
+}
+.header-container .left-elements span {
+  margin-left: 20px;
+  font-weight: bold;
+}
+.header-container .middle-elements {
+  display: flex;
+  align-items: center;
+}
+.header-container .middle-elements span {
+  margin: 0 20px 0 20px;
+  font-weight: bold;
+}
+.header-container .right-elements {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+.header-container .right-elements img {
+  width: 30px;
+  margin-right: 10px;
+}
+.header-container .right-elements button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid black;
+  width: 110px;
+  height: 30px;
+  background: transparent;
+  border-radius: 6px;
+  padding: 5px;
+}
+.header-container .right-elements button span {
+  width: 20px;
+}
 
 /*# sourceMappingURL=styles.css.map */
