@@ -99,7 +99,7 @@
     }
 
     .bio {
-        width: 840px;
+        width: 850px;
         margin-top: 20px;
         text-align: center;
     }
@@ -129,7 +129,7 @@
         height: 1px;
         border-radius: 10px;
         background-color: black;
-        margin-top: 20px;
+        margin-top: 30px;
     }
 }
 
@@ -144,14 +144,14 @@
     h3 {
         text-align: center;
         font-size: 30px;
-        margin-top: 50px;
+        margin-top: 80px;
     }
 
     h4 {
         text-align: center;
         font-size: 17px;
         font-weight: 200;
-        width: 45%;
+        width: 600px;
         margin: 20px auto auto auto;
     }
 
@@ -161,15 +161,61 @@
         justify-content: space-evenly;
         flex-wrap: wrap;
         margin-top: 50px;
+        padding: 0 50px 0 50px;
 
         .project-box {
-            height: 600px;
-            width: 500px;
+            height: 550px;
+            width: 450px;
             background-color: white;
             border-radius: 30px;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+            margin-top: 50px;
 
             img {
+                width: 450px;
                 border-radius: 30px 30px 0 0 ;
+            }
+
+            h5 {
+                text-align: center;
+                font-weight: 400;
+                font-size: 25px;
+                margin-top: 25px;
+            }
+
+            p {
+                font-size: 15px;
+                text-align: center;
+                margin: 20px auto auto auto;
+                width: 350px;
+            }
+
+            .logos-container {
+                display: flex;
+                justify-content: center;
+                margin: 20px auto auto auto;
+                width: 30px;
+            }
+
+            .button-container {
+                display: flex;
+                justify-content: space-evenly;
+                margin-top: 25px;
+                padding: 0 40px 0 40px;
+
+                button {
+                    
+                    border: 1px solid black;
+                    width: 140px;
+                    height: 35px;
+                    background: white;
+                    border-radius: 10px;
+
+                    &:hover {
+                        background-color: black;
+                        color: white;
+                    }
+                }
             }
         }
 
