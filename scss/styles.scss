@@ -51,6 +51,11 @@
             margin-right: 10px;
         }
 
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
         button {
             display: flex;
             align-items: center;
@@ -60,6 +65,12 @@
             height: 30px;
             background: $beige;
             border-radius: 8px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: black;
+                color: white;
+            }
             
             span {
                 font-size: 18px;
@@ -164,23 +175,27 @@
         padding: 0 50px 0 50px;
 
         .project-box {
-            height: 550px;
+            height: 530px;
             width: 450px;
             background-color: white;
-            border-radius: 30px;
+            border-radius: 15px;
             box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
             margin-top: 50px;
 
+            &:hover {
+                box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+            }
+
             img {
                 width: 450px;
-                border-radius: 30px 30px 0 0 ;
+                border-radius: 15px 15px 0 0 ;
             }
 
             h5 {
                 text-align: center;
                 font-weight: 400;
                 font-size: 25px;
-                margin-top: 25px;
+                margin-top: 40px;
             }
 
             p {
