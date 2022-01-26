@@ -5,13 +5,24 @@
 // *---------  HEADER SECTION  ---------* //
 // *------------------------------------* //
 
+.sticky {
+	position: -webkit-sticky;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+
+.sticky-padding {
+    padding-top: 80px;
+}
 
 .header-container {
     display: flex;
     justify-content: space-between;
     height: 80px;
-    // background-color: #F8F7F3;
-    // box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    width: 100%;
+    background-color: #F8F7F3;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 
     .left-elements {
         display: flex;
@@ -237,6 +248,7 @@
 
         img {
             width: 250px;
+            margin-top: 20px;
         }
 
         h1 {
@@ -319,7 +331,7 @@
             height: 530px;
             width: 450px;
             background-color: white;
-            border-radius: 15px;
+            border-radius: 12px;
             box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
             margin: 50px 30px 30px 30px;
 
@@ -330,7 +342,7 @@
 
             img {
                 width: 450px;
-                border-radius: 15px 15px 0 0 ;
+                border-radius: 12px 12px 0 0 ;
             }
 
             h5 {
@@ -556,6 +568,9 @@
         }
     }
 }
+
+
+// *---------  MEDIA QUERIES PROJECT SECTION  ---------* //
 
 
 
