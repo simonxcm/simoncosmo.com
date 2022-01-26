@@ -145,6 +145,10 @@
         line-height: 28px;
     }
 
+    a {
+        text-decoration: none;
+    }
+
     button {
         display: flex;
         align-items: center;
@@ -371,6 +375,10 @@
                 justify-content: space-evenly;
                 margin-top: 25px;
                 padding: 0 40px 0 40px;
+
+                a {
+                    text-decoration: none;
+                }
 
                 button {
                     display: flex;
