@@ -89,6 +89,11 @@ body {
   font-size: 15px;
 }
 
+@media (max-width: 880px) {
+  .header-container .middle-elements {
+    display: none;
+  }
+}
 .profile-container {
   display: flex;
   flex-direction: column;
@@ -123,7 +128,7 @@ body {
   height: 40px;
   background: #F8F7F3;
   border-radius: 10px;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 .profile-container button:hover {
   background-color: black;
@@ -140,9 +145,88 @@ body {
   height: 1px;
   border-radius: 10px;
   background-color: black;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
+@media (max-width: 980px) {
+  .profile-container h1 {
+    font-size: 40px;
+  }
+  .profile-container .subtitle {
+    font-size: 30px;
+  }
+  .profile-container .bio {
+    width: 600px;
+  }
+}
+@media (max-width: 750px) {
+  .profile-container h1 {
+    font-size: 30px;
+  }
+  .profile-container .subtitle {
+    font-size: 25px;
+  }
+  .profile-container .bio {
+    width: 500px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .profile-container button {
+    width: 130px;
+    height: 30px;
+    background: #F8F7F3;
+    border-radius: 8px;
+    margin-top: 30px;
+  }
+  .profile-container button span {
+    font-size: 18px;
+  }
+  .profile-container button p {
+    font-size: 13px;
+  }
+  .profile-container .blackline {
+    width: 250px;
+    margin-top: 40px;
+  }
+}
+@media (max-width: 620px) {
+  .profile-container img {
+    width: 250px;
+  }
+  .profile-container h1 {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .profile-container .subtitle {
+    font-size: 20px;
+  }
+  .profile-container .bio {
+    width: 420px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+@media (max-width: 500px) {
+  .profile-container img {
+    width: 230px;
+  }
+  .profile-container h1 {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .profile-container .subtitle {
+    font-size: 22px;
+    text-align: center;
+    width: 350px;
+    line-height: 25px;
+    margin-top: 10px;
+  }
+  .profile-container .bio {
+    width: 370px;
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
 .projects-section h3 {
   text-align: center;
   font-size: 40px;
@@ -223,6 +307,68 @@ body {
   color: white;
 }
 
+@media (max-width: 750px) {
+  .projects-section h3 {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  .projects-section h4 {
+    width: 430px;
+    font-size: 15px;
+  }
+  .projects-section .projects-container {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 620px) {
+  .projects-section h3 {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  .projects-section h4 {
+    width: 350px;
+    font-size: 12px;
+  }
+  .projects-section .projects-container {
+    margin-top: 30px;
+    padding: 0 20px 0 20px;
+  }
+  .projects-section .projects-container .project-box {
+    height: 420px;
+    width: 330px;
+    margin-top: 30px;
+  }
+  .projects-section .projects-container .project-box img {
+    width: 330px;
+    border-radius: 15px 15px 0 0;
+  }
+  .projects-section .projects-container .project-box h5 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .projects-section .projects-container .project-box p {
+    font-size: 12px;
+    margin: 20px auto auto auto;
+    width: 280px;
+  }
+  .projects-section .projects-container .project-box .button-container button {
+    width: 110px;
+    font-size: 11px;
+  }
+  .projects-section .projects-container .project-box .button-container button .material-icons-outlined {
+    font-size: 16px;
+  }
+}
+@media (max-width: 500px) {
+  .projects-section h3 {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  .projects-section h4 {
+    width: 300px;
+    font-size: 15px;
+  }
+}
 .blackline {
   width: 350px;
   height: 1px;
@@ -271,6 +417,13 @@ body {
 }
 .footer-container .links button p {
   font-size: 15px;
+}
+
+@media (max-width: 600px) {
+  .footer-container .bio {
+    width: 300px;
+    margin: auto auto 30px auto;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
