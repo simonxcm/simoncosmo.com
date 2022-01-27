@@ -32,6 +32,11 @@ body {
   border: none;
 }
 
+.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
 .sticky {
   position: -webkit-sticky;
   position: fixed;
@@ -83,13 +88,14 @@ body {
   margin-right: 10px;
 }
 .header-container .right-elements a {
-  color: black;
   text-decoration: none;
+  color: black;
 }
-.header-container .right-elements button {
+.header-container .right-elements a button {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  color: black;
   border: 1px solid black;
   width: 110px;
   height: 30px;
@@ -98,14 +104,14 @@ body {
   border-radius: 8px;
   cursor: pointer;
 }
-.header-container .right-elements button:hover {
+.header-container .right-elements a button:hover {
   background-color: black;
   color: white;
 }
-.header-container .right-elements button span {
+.header-container .right-elements a button span {
   font-size: 18px;
 }
-.header-container .right-elements button p {
+.header-container .right-elements a button p {
   font-size: 15px;
 }
 
@@ -146,11 +152,13 @@ body {
 }
 .profile-container a {
   text-decoration: none;
+  color: black;
 }
-.profile-container button {
+.profile-container a button {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  color: black;
   border: 1px solid black;
   width: 180px;
   height: 40px;
@@ -158,14 +166,14 @@ body {
   border-radius: 10px;
   margin-top: 40px;
 }
-.profile-container button:hover {
+.profile-container a button:hover {
   background-color: black;
   color: white;
 }
-.profile-container button span {
+.profile-container a button span {
   font-size: 24px;
 }
-.profile-container button p {
+.profile-container a button p {
   font-size: 18px;
 }
 .profile-container .blackline {
@@ -261,7 +269,7 @@ body {
     width: 200px;
   }
   .profile-container h1 {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 600;
   }
   .profile-container .subtitle {
@@ -337,24 +345,26 @@ body {
 }
 .projects-section .projects-container .project-box .button-container a {
   text-decoration: none;
+  color: black;
 }
-.projects-section .projects-container .project-box .button-container button {
+.projects-section .projects-container .project-box .button-container a button {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  color: black;
   border: 1px solid black;
   width: 130px;
   height: 35px;
   background: white;
   border-radius: 10px;
 }
-.projects-section .projects-container .project-box .button-container button img {
+.projects-section .projects-container .project-box .button-container a button img {
   width: 18px;
 }
-.projects-section .projects-container .project-box .button-container button .material-icons-outlined {
+.projects-section .projects-container .project-box .button-container a button .material-icons-outlined {
   font-size: 18px;
 }
-.projects-section .projects-container .project-box .button-container button:hover {
+.projects-section .projects-container .project-box .button-container a button:hover {
   background-color: black;
   color: white;
 }
@@ -403,12 +413,12 @@ body {
     margin: 20px auto auto auto;
     width: 280px;
   }
-  .projects-section .projects-container .project-box .button-container button {
+  .projects-section .projects-container .project-box .button-container a button {
     width: 110px;
     height: 30px;
     font-size: 11px;
   }
-  .projects-section .projects-container .project-box .button-container button .material-icons-outlined {
+  .projects-section .projects-container .project-box .button-container a button .material-icons-outlined {
     font-size: 16px;
   }
 }
@@ -433,11 +443,11 @@ body {
     margin: 20px auto auto auto;
     width: 250px;
   }
-  .projects-section .projects-container .project-box .button-container button {
+  .projects-section .projects-container .project-box .button-container a button {
     width: 90px;
     font-size: 9px;
   }
-  .projects-section .projects-container .project-box .button-container button .material-icons-outlined {
+  .projects-section .projects-container .project-box .button-container a button .material-icons-outlined {
     font-size: 14px;
   }
 }
@@ -468,10 +478,11 @@ body {
   color: black;
   text-decoration: none;
 }
-.footer-container .links button {
+.footer-container .links a button {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  color: black;
   border: 1px solid black;
   width: 110px;
   height: 30px;
@@ -480,14 +491,14 @@ body {
   border-radius: 8px;
   cursor: pointer;
 }
-.footer-container .links button:hover {
+.footer-container .links a button:hover {
   background-color: black;
   color: white;
 }
-.footer-container .links button span {
+.footer-container .links a button span {
   font-size: 18px;
 }
-.footer-container .links button p {
+.footer-container .links a button p {
   font-size: 15px;
 }
 

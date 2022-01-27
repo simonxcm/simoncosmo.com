@@ -29,30 +29,32 @@
 
     a {
         text-decoration: none;
-    }
-
-    button {
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        border: 1px solid black;
-        width: 180px;
-        height: 40px;
-        background: $beige;
-        border-radius: 10px;
-        margin-top: 40px;
-
-        &:hover {
-            background-color: black;
-            color: white;
-        }
+        color: black;
         
-        span {
-            font-size: 24px;
-        }
-
-        p {
-            font-size: 18px;
+        button {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            color: black;
+            border: 1px solid black;
+            width: 180px;
+            height: 40px;
+            background: $beige;
+            border-radius: 10px;
+            margin-top: 40px;
+    
+            &:hover {
+                background-color: black;
+                color: white;
+            }
+            
+            span {
+                font-size: 24px;
+            }
+    
+            p {
+                font-size: 18px;
+            }
         }
     }
 
@@ -192,7 +194,7 @@
         }
 
         h1 {
-            font-size: 20px;
+            font-size: 22px;
             font-weight: 600;
         }
     

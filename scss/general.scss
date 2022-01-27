@@ -35,3 +35,8 @@ body {
     color: white !important;
     border: none;
 }
+
+.disabled {
+    pointer-events: none;
+    cursor: default;
+}
