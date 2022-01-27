@@ -5,9 +5,182 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/scss/styles.css">
-    <title>Simon Coscino-Mollard</title>
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <link rel="icon" href="/medias/favicon.png">
+    <title>Simon Coscino-Mollard Web Developer</title>
 </head>
 <body>
-    
+    <div id="header" class="header-container">
+        <div class="left-elements">
+            <img src="/medias/profilepicture50.png" alt="simon-icon">
+            <span> Simon </span>
+        </div>
+        <div class="middle-elements">
+            <span>Projects</span>
+            <span>Skills</span>
+            <span>Experience</span>
+        </div>
+        <div class="right-elements">
+            <span><a href="https://www.linkedin.com/in/simon-coscino-mollard" target="_blank"><img src="/medias/linkedin.png" alt="linkedin"></a></span>
+            <span><a href="https://github.com/simonxcm" target="_blank"><img src="/medias/github50.png" alt="github"></a></span>
+            <a href="mailto:simon@simoncosmo.com">
+            <button>
+                <span class="material-icons-outlined">send</span>
+                <p>Email me</p> 
+            </button>
+            </a>
+        </div>
+    </div>
+
+    <div id="profile-container" class="profile-container">
+        <img src="/medias/profilepicture300.png" alt="simon-profile">
+        <h1>SIMON COSCINO-MOLLARD</h1>
+        <h1 class="subtitle">FRONT-END WEB DEVELOPER AND DESIGNER</h1>
+        
+        <p class="bio"><strong> Seeking a 6-month internship</strong></p>
+
+        <p class="bio">After several years spent working on visual communication and web design projects, I joined Donkey School for intensive training with the ambition of becoming an expert in front-end development and UI/UX design.</p>
+
+        <a href="/medias/cv/cv_simoncoscinomollard.pdf" target="_blank">
+        <button>
+            <span class="material-icons-outlined">file_download</span>
+            <p>Download CV</p>  
+        </button>
+        </a>
+        <div class="blackline"></div>
+
+    </div>
+
+    <div class="projects-section">
+        <h3>Projects</h3>
+        <h4>In this section you can see all my projects, the tools and technologies I used and view the repos on Github if available.  </h4>
+        <div class="projects-container">
+            <div onmouseenter="playVid1()" onmouseleave="pauseVid1()" ontouchstart="playVid1()" ontouchend="pauseVid1()" class="project-box">
+                <video id="video-one" src="/medias/videos/investimmo.webm" alt="investimmo" loop playsinline muted></video>
+                <h5>Invest'Immo</h5>
+                <p>Web application with rental profitability calculation algorithm, data scraping, Stripe payment. UI/UX Design with Figma. 5 devs.</p>
+                <div class="logos-container">
+                    <img src="/medias/angular.png" alt="angular">
+                    <img src="/medias/symfony.png" alt="symfony">
+                    <img src="/medias/typescript.png" alt="typescript">
+                    <img src="/medias/figma.png" alt="figma">
+                </div>
+                <div class="button-container">
+                    <button id="coming-soon"> Coming Soon </button>
+                    <button id="coming-soon"> Soon on Github </button>
+                </div>
+            </div>
+            <div onmouseenter="playVid2()" onmouseleave="pauseVid2()" ontouchstart="playVid2()" ontouchend="pauseVid2()" class="project-box">
+                <video id="video-two" src="/medias/videos/laetitia.webm" alt="laetitiaouedraogo" loop playsinline muted></video>
+                <h5>Laetita Ouedraogo</h5>
+                <p>Portfolio of an audiovisual director with reactive integration of HD video and mobile adaptation. UI/UX design with Figma. Solo project. </p>
+                <div class="logos-container">
+                    <img src="/medias/javascript.png" alt="javascript">
+                    <img src="/medias/html5.png" alt="html5">
+                    <img src="/medias/css3.png" alt="css3">
+                    <img src="/medias/sass.png" alt="sass">
+                </div>
+                <div class="button-container">
+                    <button id="coming-soon">Coming Soon</button>
+                    <button id="coming-soon">Soon on Github</button>
+                </div>
+            </div>
+            <div onmouseenter="playVid3()" onmouseleave="pauseVid3()" ontouchstart="playVid3()" ontouchend="pauseVid3()" class="project-box">
+                <video id="video-three" src="/medias/videos/cristelo.webm" alt="christelo" loop playsinline muted></video>
+                <h5>Christélo</h5>
+                <p>Wine and spirits cellar with SumUp payment online store, user account and age control to access the site. 2 devs. </p>
+                <div class="logos-container">
+                    <img src="/medias/wordpress.png" alt="wordpress">
+                    <img src="/medias/html5.png" alt="html5">
+                    <img src="/medias/css3.png" alt="css3">
+                </div>
+                <div class="button-container">
+                    <a href="https://christelo.com/" target="_blank">
+                    <button><span class="material-icons-outlined">launch</span>
+                        Visit website
+                    </button>
+                    </a>
+                </div>
+            </div>
+            <div onmouseenter="playVid4()" onmouseleave="pauseVid4()" ontouchstart="playVid4()" ontouchend="pauseVid4()" class="project-box">
+                <video id="video-four" src="/medias/videos/santadeoliveira.webm" alt="santadeoliveira" loop playsinline muted></video>
+                <h5>Santa De Oliveira</h5>
+                <p>Online resume for a profile in event communication. Typeform integration. UI/UX design with Figma. Solo project.</p>
+                <div class="logos-container">
+                    <img src="/medias/javascript.png" alt="wordpress">
+                    <img src="/medias/html5.png" alt="html5">
+                    <img src="/medias/css3.png" alt="css3">
+                    <img src="/medias/sass.png" alt="sass">
+                </div>
+                <div class="button-container">
+                    <a href="https://santadeoliveira.com" target="_blank">
+                        <button><span class="material-icons-outlined">launch</span>
+                            Visit website
+                        </button>
+                    </a>
+                    <a href="https://github.com/simonxcm/Online_CV_Santa" target="_blank">
+                        <button><span class="material-icons-outlined">launch</span>
+                            View on Github
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div onmouseenter="playVid5()" onmouseleave="pauseVid5()" ontouchstart="playVid5()" ontouchend="pauseVid5()" class="project-box">
+                <video id="video-five" src="/medias/videos/cestlavie.webm" alt="cestlavie" loop playsinline muted></video>
+                <h5>C'est La Vie</h5>
+                <p>Launch of a waffle and ice cream kiosk with Click & Collect solution with GloriaFood. Creation of the visual identity. 2 devs.</p>
+                <div class="logos-container">
+                    <img src="/medias/wordpress.png" alt="wordpress">
+                    <img src="/medias/html5.png" alt="html5">
+                    <img src="/medias/css3.png" alt="css3">
+                </div>
+                <div class="button-container">
+                    <a href="https://cestlavie-antibes.fr/" target="_blank">
+                        <button><span class="material-icons-outlined">launch</span>
+                            Visit website
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div onmouseenter="playVid6()" onmouseleave="pauseVid6()" ontouchstart="playVid6()" ontouchend="pauseVid6()" class="project-box">
+                <video id="video-six" src="/medias/videos/buttercupfarms.webm" alt="buttercup" loop playsinline muted></video>
+                <h5>Buttercup Farms</h5>
+                <p>American association helping people in need through gardening and harvesting. Visual identity and video making. Made in San Francisco.</p>
+                <div class="logos-container">
+                    <img src="/medias/wix.png" alt="wix">
+                    <img src="/medias/html5.png" alt="html5">
+                    <img src="/medias/css3.png" alt="css3">
+                </div>
+                <div class="button-container">
+                    <a href="https://www.buttercupfarms.org/">
+                        <button><span class="material-icons-outlined">launch</span>
+                            Visit website
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="blackline"></div>
+
+    <div class="footer-container">
+        <div class="bio"> <p>Je suis à l'écoute d'opportunités, n'hésitez pas à me contacter !</p> </div>
+
+        <div class="links">
+            <span><a href="https://github.com/simonxcm" target="_blank"><img src="/medias/linkedin.png" alt="linkedin"></a></span>
+            <span><a href="https://github.com/simonxcm" target="_blank"><img src="/medias/github50.png" alt="github"></a></span>
+
+            <a href="mailto:simon@simoncosmo.com">
+                <button>
+                    <span class="material-icons-outlined">send</span>
+                    <p>Email me</p> 
+                </button>
+            </a>
+        </div>
+    </div>
+
+    <script src="interactions.js"></script> 
+
 </body>
 </html>
