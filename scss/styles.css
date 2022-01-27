@@ -114,6 +114,11 @@ body {
     display: none;
   }
 }
+@media (max-width: 375px) {
+  .header-container .left-elements span {
+    display: none;
+  }
+}
 .profile-container {
   display: flex;
   flex-direction: column;
@@ -251,6 +256,26 @@ body {
     line-height: 23px;
   }
 }
+@media (max-width: 360px) {
+  .profile-container img {
+    width: 200px;
+  }
+  .profile-container h1 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .profile-container .subtitle {
+    font-size: 20px;
+    width: 280px;
+    line-height: 25px;
+    margin-top: 10px;
+  }
+  .profile-container .bio {
+    width: 280px;
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
 .projects-section h3 {
   text-align: center;
   font-size: 40px;
@@ -365,7 +390,7 @@ body {
     width: 330px;
     margin-top: 30px;
   }
-  .projects-section .projects-container .project-box img {
+  .projects-section .projects-container .project-box video {
     width: 330px;
     border-radius: 15px 15px 0 0;
   }
@@ -380,20 +405,40 @@ body {
   }
   .projects-section .projects-container .project-box .button-container button {
     width: 110px;
+    height: 30px;
     font-size: 11px;
   }
   .projects-section .projects-container .project-box .button-container button .material-icons-outlined {
     font-size: 16px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 360px) {
   .projects-section h3 {
-    font-size: 25px;
-    margin-top: 20px;
+    font-size: 22px;
+    margin-top: 15px;
   }
   .projects-section h4 {
-    width: 300px;
-    font-size: 15px;
+    width: 280px;
+    font-size: 14px;
+  }
+  .projects-section .projects-container .project-box {
+    height: 380px;
+    width: 280px;
+  }
+  .projects-section .projects-container .project-box video {
+    width: 280px;
+  }
+  .projects-section .projects-container .project-box p {
+    font-size: 10px;
+    margin: 20px auto auto auto;
+    width: 250px;
+  }
+  .projects-section .projects-container .project-box .button-container button {
+    width: 90px;
+    font-size: 9px;
+  }
+  .projects-section .projects-container .project-box .button-container button .material-icons-outlined {
+    font-size: 14px;
   }
 }
 .blackline {
@@ -450,6 +495,11 @@ body {
   .footer-container .bio {
     width: 300px;
     margin: auto auto 30px auto;
+  }
+}
+@media (max-width: 360px) {
+  .blackline {
+    width: 280px;
   }
 }
 
