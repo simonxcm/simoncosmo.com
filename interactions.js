@@ -102,33 +102,3 @@ function pauseVid6()
 
 
 
-if("ontouchstart" in document.documentElement){
-    let video = document.querySelectorAll("video")[0];
-    var img = document.createElement("img");
-
-    //set img attributes here
-
-    video.parentNode.replaceChild(img, video);
-
-}
-
-
-function changeVideoSource() {
-    if (mediaQuery.matches) { 
-        videoOne.setAttribute('src', '/medias/liberte_sans_nom-tiny.mp4');
-        videoTwo.setAttribute('src', '/medias/identite-tiny.mp4');
-        videoThree.setAttribute('src', '/medias/leo_fifty_five-tiny.mp4');
-        videoFour.setAttribute('src', '/medias/sombrero-tiny.mp4');
-        videoFive.setAttribute('src', '/medias/jaia_rose-tiny.mp4');
-    } else {
-        videoOne.setAttribute('src', '/medias/liberte_sans_nom.mp4');
-        videoTwo.setAttribute('src', '/medias/identite.mp4');
-        videoThree.setAttribute('src', '/medias/leo_fifty_five.mp4');
-        videoFour.setAttribute('src', '/medias/sombrero.mp4');
-        videoFive.setAttribute('src', '/medias/jaia_rose.mp4');
-    }
-}
-
-let body = document.getElementById('body')
-
-
