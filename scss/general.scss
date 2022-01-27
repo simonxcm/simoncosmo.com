@@ -16,6 +16,27 @@ $beige: #F8F7F3;
     */
 }
 
+::-webkit-media-controls-panel {
+    display: none!important;
+    -webkit-appearance: none;
+}
+  
+  /* Old shadow dom for play button */
+  
+::-webkit-media-controls-play-button {
+    display: none!important;
+    -webkit-appearance: none;
+}
+  
+  /* New shadow dom for play button */
+  
+  /* This one works! */
+  
+::-webkit-media-controls-start-playback-button {
+    display: none!important;
+    -webkit-appearance: none;
+}
+
 body {
     background-color: $beige;
     background-image: radial-gradient(lightgray 5.5%, transparent 0);
@@ -30,13 +51,9 @@ body {
     position: relative;
 }
 
-#coming-soon:hover {
-    background-color: lightgray !important;
-    color: white !important;
-    border: none;
-}
-
 .disabled {
     pointer-events: none;
     cursor: default;
 }
+
+
