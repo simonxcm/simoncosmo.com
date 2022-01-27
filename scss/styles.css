@@ -86,6 +86,10 @@ body {
   margin-left: 90px;
   font-size: 20px;
 }
+.header-container .middle-elements a {
+  text-decoration: none;
+  color: black;
+}
 .header-container .middle-elements span {
   margin: 0 20px 0 20px;
   font-weight: bold;
