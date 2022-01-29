@@ -150,8 +150,8 @@
     
         .bio {
             width: 420px;
-            font-size: 12px;
-            line-height: 16px;
+            font-size: 14px;
+            line-height: 18px;
         }
     }
 }
@@ -185,7 +185,7 @@
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 400px) {
     
     .profile-container {
 
@@ -206,7 +206,7 @@
         }
     
         .bio {
-            width: 280px;
+            width: 290px;
             font-size: 15px;
             line-height: 23px;
         }

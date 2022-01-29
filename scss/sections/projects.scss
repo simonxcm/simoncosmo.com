@@ -101,8 +101,8 @@
     }
 }
 
-// *---------  MEDIA QUERIES PROJECT SECTION  ---------* //
 
+// *---------  MEDIA QUERIES PROJECT SECTION  ---------* //
 
 
 @media (max-width: 750px) {
@@ -136,7 +136,7 @@
 
         h4 {
             width: 350px;
-            font-size: 12px;
+            font-size: 14px;
         }
 
         .projects-container {
@@ -180,14 +180,13 @@
                             }
                         }
                     }
-        
                 }
             }
         }
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 400px) {
     
     .projects-section {
 
@@ -230,7 +229,6 @@
                             }
                         }
                     }
-        
                 }
             }
         }

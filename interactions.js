@@ -101,4 +101,30 @@ function pauseVid6()
 }
 
 
+// *-----------------------------------------------------* //
+// *----------  CHANGE VIDEO SOURCE ON MOBILE  ----------* //
+// *-----------------------------------------------------* //
 
+
+let mediaQuery = window.matchMedia("(max-width: 500px)")
+
+function changeVideoSource(mediaQuery) {
+    if (mediaQuery.matches) { 
+        videoOne.setAttribute('src', '/medias/videos/investimmo-mobile.mp4');
+        videoTwo.setAttribute('src', '/medias/videos/laeti-mobile.mp4');
+        videoThree.setAttribute('src', '/medias/videos/christelo-mobile.mp4');
+        videoFour.setAttribute('src', '/medias/videos/santadeoliveira-mobile.mp4');
+        videoFive.setAttribute('src', '/medias/videos/cestlavie-mobile.mp4');
+        videoSix.setAttribute('src', '/medias/videos/buttercupfarms-mobile.mp4');
+    } else {
+        videoOne.setAttribute('src', '/medias/videos/investimmo-tiny.mp4');
+        videoTwo.setAttribute('src', '/medias/videos/laeti-tiny.mp4');
+        videoThree.setAttribute('src', '/medias/videos/christelo-tiny.mp4');
+        videoFour.setAttribute('src', '/medias/videos/santadeoliveira-tiny.mp4');
+        videoFive.setAttribute('src', '/medias/videos/cestlavie-tiny.mp4');
+        videoSix.setAttribute('src', '/medias/videos/buttercupfarms-tiny.mp4');
+    }
+}
+   
+changeVideoSource(mediaQuery) 
+mediaQuery.addListener(myFunction)

@@ -12,24 +12,6 @@
   */
 }
 
-::-webkit-media-controls-panel {
-  display: none !important;
-  -webkit-appearance: none;
-}
-
-/* Old shadow dom for play button */
-::-webkit-media-controls-play-button {
-  display: none !important;
-  -webkit-appearance: none;
-}
-
-/* New shadow dom for play button */
-/* This one works! */
-::-webkit-media-controls-start-playback-button {
-  display: none !important;
-  -webkit-appearance: none;
-}
-
 body {
   background-color: #F8F7F3;
   background-image: radial-gradient(lightgray 5.5%, transparent 0);
@@ -255,8 +237,8 @@ body {
   }
   .profile-container .bio {
     width: 420px;
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 14px;
+    line-height: 18px;
   }
 }
 @media (max-width: 500px) {
@@ -280,7 +262,7 @@ body {
     line-height: 23px;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 400px) {
   .profile-container img {
     width: 200px;
   }
@@ -295,7 +277,7 @@ body {
     margin-top: 10px;
   }
   .profile-container .bio {
-    width: 280px;
+    width: 290px;
     font-size: 15px;
     line-height: 23px;
   }
@@ -405,7 +387,7 @@ body {
   }
   .projects-section h4 {
     width: 350px;
-    font-size: 12px;
+    font-size: 14px;
   }
   .projects-section .projects-container {
     margin-top: 30px;
@@ -438,7 +420,7 @@ body {
     font-size: 16px;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 400px) {
   .projects-section h3 {
     font-size: 22px;
     margin-top: 15px;
