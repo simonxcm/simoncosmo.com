@@ -42,6 +42,7 @@ let videoSix = document.getElementById("video-six");
 
 function playVid1()
 { 
+    videoOne.load()
     videoOne.play();  
 } 
 
