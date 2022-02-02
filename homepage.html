@@ -6,13 +6,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/scss/styles.css">
         <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
-        <link rel="icon" href="/medias/favicon.png">
+        <link rel="icon" href="/medias/icons/favicon.png">
         <title>Simon Coscino-Mollard Web Developer</title>
     </head>
     <body id="body">
         <div id="header" class="header-container">
             <div class="left-elements">
-                <img src="/medias/profilepicture50.png" alt="simon-icon">
+                <img src="/medias/icons/profilepicture50.png" alt="simon-icon">
                 <span> Simon </span>
             </div>
             <div class="middle-elements">
@@ -21,8 +21,8 @@
                 <span>Experience</span>
             </div>
             <div class="right-elements">
-                <span><a href="https://www.linkedin.com/in/simon-coscino-mollard" target="_blank"><img src="/medias/linkedin.png" alt="linkedin"></a></span>
-                <span><a href="https://github.com/simonxcm" target="_blank"><img src="/medias/github50.png" alt="github"></a></span>
+                <span><a href="https://www.linkedin.com/in/simon-coscino-mollard" target="_blank"><img src="/medias/icons/linkedin.png" alt="linkedin"></a></span>
+                <span><a href="https://github.com/simonxcm" target="_blank"><img src="/medias/icons/github50.png" alt="github"></a></span>
                 <a href="mailto:simon@simoncosmo.com">
                     <button>
                         <span class="material-icons-outlined">send</span>
@@ -31,8 +31,11 @@
                 </a>
             </div>
         </div>
+
+        <div class="parallax"></div>
+        
         <div id="profile-container" class="profile-container">
-            <img src="/medias/profilepicture300.png" alt="simon-profile">
+            <img src="/medias/icons/profilepicture300.png" alt="simon-profile">
             <h1>SIMON COSCINO-MOLLARD</h1>
             <h1 class="subtitle">FRONT-END WEB DEVELOPER AND DESIGNER</h1>
             <p class="bio"><strong> Seeking a 6-month internship</strong></p>
@@ -51,16 +54,16 @@
             <h4>In this section you can see all my projects, the tools and technologies I used and view the repos on Github if available.</h4>
             <div class="projects-container">
                 <div onmouseenter="playVid1()" onmouseleave="pauseVid1()" ontouchstart="playVid1()" ontouchend="pauseVid1()" class="project-box">
-                    <video id="video-one" src="/medias/videos/investimmo-tiny.mp4" alt="investimmo" loop playsinline muted preload="auto" poster="/medias/videos/investimmo.jpg"></video>
+                    <video id="video-one" src="/medias/videos/investimmo-tiny.mp4" alt="investimmo" loop playsinline muted preload="metadata" poster="/medias/videos/investimmo.jpg"></video>
                     <h5>Invest'Immo</h5>
                     <p>Web application with rental profitability calculation algorithm, data scraping, Stripe payment. UI/UX Design with Figma. 5 devs.</p>
                     <div class="logos-container">
-                        <img src="/medias/angular.png" alt="angular">
-                        <img src="/medias/symfony.png" alt="symfony">
-                        <img src="/medias/typescript.png" alt="typescript">
-                        <img src="/medias/html5.png" alt="typescript">
-                        <img src="/medias/sass.png" alt="typescript">
-                        <img src="/medias/figma.png" alt="figma">
+                        <img src="/medias/icons/angular.png" alt="angular">
+                        <img src="/medias/icons/symfony.png" alt="symfony">
+                        <img src="/medias/icons/typescript.png" alt="typescript">
+                        <img src="/medias/icons/html5.png" alt="typescript">
+                        <img src="/medias/icons/sass.png" alt="typescript">
+                        <img src="/medias/icons/figma.png" alt="figma">
                     </div>
                     <div class="button-container">
                         <a class="disabled" href="#">
@@ -69,31 +72,31 @@
                     </div>
                 </div>
                 <div onmouseenter="playVid2()" onmouseleave="pauseVid2()" ontouchstart="playVid2()" ontouchend="pauseVid2()" class="project-box">
-                    <video id="video-two" src="/medias/videos/laeti-tiny.mp4" alt="laetitiaouedraogo" loop playsinline muted preload="auto" poster="medias/videos/laeti.jpg"></video>
+                    <video id="video-two" src="/medias/videos/laeti-tiny.mp4" alt="laetitiaouedraogo" loop playsinline muted poster="medias/videos/laeti.jpg"></video>
                     <h5>Laetitia Ouedraogo</h5>
-                    <p>Portfolio of an audiovisual director with reactive integration of HD video and mobile adaptation. UI/UX design with Figma. Solo project. </p>
+                    <p>Portfolio of an audiovisual director with reactive integration of HD videos and mobile adaptation. UI/UX design with Figma. Solo project. </p>
                     <div class="logos-container">
-                        <img src="/medias/javascript.png" alt="javascript">
-                        <img src="/medias/html5.png" alt="html5">
-                        <img src="/medias/sass.png" alt="sass">
+                        <img src="/medias/icons/javascript.png" alt="javascript">
+                        <img src="/medias/icons/html5.png" alt="html5">
+                        <img src="/medias/icons/sass.png" alt="sass">
                     </div>
                     <div class="button-container">
-                        <a class="disabled" href="#">
-                            <button> Coming Soon </button>
+                        <a href="https://laetitiaouedraogo.com/">
+                            <button> Visit website </button>
                         </a>
-                        <a class="disabled" href="#">
-                            <button> Soon on Github </button>
+                        <a href="https://github.com/simonxcm/Portfolio_Laeti">
+                            <button> View on Github </button>
                         </a>
                     </div>
                 </div>
                 <div onmouseenter="playVid3()" onmouseleave="pauseVid3()" ontouchstart="playVid3()" ontouchend="pauseVid3()" class="project-box">
-                    <video id="video-three" src="/medias/videos/christelo-tiny.mp4" alt="christelo" loop playsinline muted preload="auto" poster="/medias/videos/christelo.jpg"></video>
+                    <video id="video-three" src="/medias/videos/christelo-tiny.mp4" alt="christelo" loop playsinline muted poster="/medias/videos/christelo.jpg"></video>
                     <h5>Christélo</h5>
                     <p>Wine and spirits cellar with SumUp payment online store, user account and age control to access the site. 2 devs. </p>
                     <div class="logos-container">
-                        <img src="/medias/wordpress.png" alt="wordpress">
-                        <img src="/medias/html5.png" alt="html5">
-                        <img src="/medias/css3.png" alt="css3">
+                        <img src="/medias/icons/wordpress.png" alt="wordpress">
+                        <img src="/medias/icons/html5.png" alt="html5">
+                        <img src="/medias/icons/css3.png" alt="css3">
                     </div>
                     <div class="button-container">
                         <a href="https://christelo.com/" target="_blank">
@@ -104,13 +107,13 @@
                     </div>
                 </div>
                 <div onmouseenter="playVid4()" onmouseleave="pauseVid4()" ontouchstart="playVid4()" ontouchend="pauseVid4()" class="project-box">
-                    <video id="video-four" src="/medias/videos/santadeoliveira-tiny.mp4" alt="santadeoliveira" loop playsinline muted preload="auto" poster="/medias/videos/santa.jpg"></video>
+                    <video id="video-four" src="/medias/videos/santadeoliveira-tiny.mp4" alt="santadeoliveira" loop playsinline muted poster="/medias/videos/santa.jpg"></video>
                     <h5>Santa De Oliveira</h5>
                     <p>Online resume for a profile in event communication. Typeform integration. UI/UX design with Figma. Solo project.</p>
                     <div class="logos-container">
-                        <img src="/medias/javascript.png" alt="wordpress">
-                        <img src="/medias/html5.png" alt="html5">
-                        <img src="/medias/sass.png" alt="sass">
+                        <img src="/medias/icons/javascript.png" alt="wordpress">
+                        <img src="/medias/icons/html5.png" alt="html5">
+                        <img src="/medias/icons/sass.png" alt="sass">
                     </div>
                     <div class="button-container">
                         <a href="https://santadeoliveira.com" target="_blank">
@@ -126,13 +129,13 @@
                     </div>
                 </div>
                 <div onmouseenter="playVid5()" onmouseleave="pauseVid5()" ontouchstart="playVid5()" ontouchend="pauseVid5()" class="project-box">
-                    <video id="video-five" src="/medias/videos/cestlavie-tiny.mp4" alt="cestlavie" loop playsinline muted preload="auto" poster="/medias/videos/cestlavie.jpg"></video>
+                    <video id="video-five" src="/medias/videos/cestlavie-tiny.mp4" alt="cestlavie" loop playsinline muted poster="/medias/videos/cestlavie.jpg"></video>
                     <h5>C'est La Vie</h5>
                     <p>Launch of a waffle and ice cream kiosk with GloriaFood Click & Collect solution. Creation of the visual identity. 2 devs.</p>
                     <div class="logos-container">
-                        <img src="/medias/wordpress.png" alt="wordpress">
-                        <img src="/medias/html5.png" alt="html5">
-                        <img src="/medias/css3.png" alt="css3">
+                        <img src="/medias/icons/wordpress.png" alt="wordpress">
+                        <img src="/medias/icons/html5.png" alt="html5">
+                        <img src="/medias/icons/css3.png" alt="css3">
                     </div>
                     <div class="button-container">
                         <a href="https://cestlavie-antibes.fr/" target="_blank">
@@ -143,13 +146,13 @@
                     </div>
                 </div>
                 <div onmouseenter="playVid6()" onmouseleave="pauseVid6()" ontouchstart="playVid6()" ontouchend="pauseVid6()" class="project-box">
-                    <video id="video-six" src="/medias/videos/buttercupfarms-tiny.mp4" alt="buttercup" loop playsinline muted preload="auto" poster="/medias/videos/buttercup.jpg"></video>
+                    <video id="video-six" src="/medias/videos/buttercupfarms-tiny.mp4" alt="buttercup" loop playsinline muted poster="/medias/videos/buttercup.jpg"></video>
                     <h5>Buttercup Farms</h5>
                     <p>American association helping people in need through gardening and harvesting. Visual identity and video making. Made in San Francisco.</p>
                     <div class="logos-container">
-                        <img src="/medias/wix.png" alt="wix">
-                        <img src="/medias/html5.png" alt="html5">
-                        <img src="/medias/css3.png" alt="css3">
+                        <img src="/medias/icons/wix.png" alt="wix">
+                        <img src="/medias/icons/html5.png" alt="html5">
+                        <img src="/medias/icons/css3.png" alt="css3">
                     </div>
                     <div class="button-container">
                         <a href="https://www.buttercupfarms.org/">
@@ -165,8 +168,8 @@
         <div class="footer-container">
             <div class="bio"> <p>I am listening to opportunities, do not hesitate to contact me!</p> </div>
             <div class="links">
-                <span><a href="https://github.com/simonxcm" target="_blank"><img src="/medias/linkedin.png" alt="linkedin"></a></span>
-                <span><a href="https://github.com/simonxcm" target="_blank"><img src="/medias/github50.png" alt="github"></a></span>
+                <span><a href="https://www.linkedin.com/in/simon-coscino-mollard" target="_blank"><img src="/medias/icons/linkedin.png" alt="linkedin"></a></span>
+                <span><a href="https://github.com/simonxcm" target="_blank"><img src="/medias/icons/github50.png" alt="github"></a></span>
                 <a href="mailto:simon@simoncosmo.com">
                     <button>
                         <span class="material-icons-outlined">send</span>
