@@ -18,6 +18,19 @@ body {
   background-size: 30px 30px;
   background-position: fixed;
 }
+body .blackline {
+  width: 350px;
+  height: 1px;
+  border-radius: 10px;
+  background-color: black;
+  margin-top: 80px;
+}
+@media (max-width: 750px) {
+  body .blackline {
+    width: 250px;
+    margin-top: 50px;
+  }
+}
 
 .psa {
   position: absolute;
@@ -202,13 +215,6 @@ body {
 .profile-container a button p {
   font-size: 18px;
 }
-.profile-container .blackline {
-  width: 350px;
-  height: 1px;
-  border-radius: 10px;
-  background-color: black;
-  margin-top: 50px;
-}
 
 @media (max-width: 980px) {
   .profile-container h1 {
@@ -245,10 +251,6 @@ body {
   }
   .profile-container button p {
     font-size: 13px;
-  }
-  .profile-container .blackline {
-    width: 250px;
-    margin-top: 40px;
   }
 }
 @media (max-width: 620px) {
@@ -415,7 +417,6 @@ body {
 @media (max-width: 620px) {
   .projects-section h3 {
     font-size: 25px;
-    margin-top: 20px;
   }
   .projects-section h4 {
     width: 350px;
@@ -479,6 +480,103 @@ body {
   }
   .projects-section .projects-container .project-box .button-container a button .material-icons-outlined {
     font-size: 14px;
+  }
+}
+.skills-section h3 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 80px;
+}
+.skills-section .skills-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}
+.skills-section .skills-container .skills-box {
+  padding: 30px;
+  width: 550px;
+  height: auto;
+  border: 2px dashed lightblue;
+  text-align: center;
+  margin: 0 20px;
+}
+.skills-section .skills-container .skills-box .skill-title {
+  margin-bottom: 30px;
+}
+.skills-section .skills-container .skills-box .skill-title h5 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.skills-section .skills-container .skills-box .skill-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+}
+.skills-section .skills-container .skills-box .skill-logos img {
+  transform: scale(0.8);
+}
+.skills-section .skills-container .skills-box .skill-logos img:hover {
+  transform: scale(1);
+}
+.skills-section .skills-container .skills-box .skill-text {
+  margin: 50px auto;
+}
+.skills-section .skills-container .skills-box .skill-text p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+@media (max-width: 750px) {
+  .skills-section h3 {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  .skills-section .skills-container {
+    margin-top: 60px;
+  }
+  .skills-section .skills-container .skills-box {
+    width: 500px;
+  }
+  .skills-section .skills-container .skills-box .skill-title h5 {
+    font-size: 20px;
+  }
+  .skills-section .skills-container .skills-box .skill-logos img {
+    transform: scale(0.7);
+  }
+  .skills-section .skills-container .skills-box .skill-logos img:hover {
+    transform: scale(0.7);
+  }
+  .skills-section .skills-container .skills-box .skill-text {
+    margin: 30px auto;
+  }
+  .skills-section .skills-container .skills-box .skill-text p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+@media (max-width: 620px) {
+  .skills-section h3 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 400px) {
+  .skills-section h3 {
+    font-size: 22px;
+  }
+  .skills-section .skills-container .skills-box .skill-title h5 {
+    font-size: 18px;
+  }
+  .skills-section .skills-container .skills-box .skill-logos img {
+    margin-right: -10px;
+  }
+  .skills-section .skills-container .skills-box .skill-text {
+    margin: 30px auto;
+  }
+  .skills-section .skills-container .skills-box .skill-text p {
+    font-size: 15px;
+    line-height: 25px;
   }
 }
 .blackline {

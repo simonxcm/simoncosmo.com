@@ -58,14 +58,6 @@
             }
         }
     }
-
-    .blackline {
-        width: 350px;
-        height: 1px;
-        border-radius: 10px;
-        background-color: black;
-        margin-top: 50px;
-    }
 }
 
 // *---------  MEDIA QUERIES PROFILE SECTION  ---------* //
@@ -122,11 +114,6 @@
             p {
                 font-size: 13px;
             }
-        }
-    
-        .blackline {
-            width: 250px;
-            margin-top: 40px;
         }
     }
 }

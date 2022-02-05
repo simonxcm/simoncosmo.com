@@ -21,6 +21,22 @@ body {
     background-image: radial-gradient(lightgray 5.5%, transparent 0);
     background-size: 30px 30px;
     background-position: fixed;
+
+    .blackline {
+        width: 350px;
+        height: 1px;
+        border-radius: 10px;
+        background-color: black;
+        margin-top: 80px;
+    }
+
+    @media (max-width: 750px) {
+        
+        .blackline {
+            width: 250px;
+            margin-top: 50px;
+        }
+    }
 }
 
 .psa {
@@ -35,5 +51,7 @@ body {
     pointer-events: none;
     cursor: default;
 }
+
+
 
 
