@@ -101,6 +101,7 @@ body {
   width: 110px;
   height: 30px;
   margin: 0 3px 2px 0;
+  padding: 0 7px;
   background: #F8F7F3;
   border-radius: 8px;
   cursor: pointer;
@@ -138,6 +139,12 @@ body {
   }
   .header-container .left-elements span {
     display: none;
+  }
+  .header-container .left-elements img {
+    margin-right: 5px;
+  }
+  .header-container .left-elements a {
+    margin-left: 5px;
   }
   .header-container .right-elements {
     margin-right: 10px;
@@ -183,6 +190,7 @@ body {
   background: #F8F7F3;
   border-radius: 10px;
   margin-top: 40px;
+  padding: 0 10px;
 }
 .profile-container a button:hover {
   background-color: black;
@@ -361,6 +369,9 @@ body {
   margin-top: 25px;
   padding: 0 40px 0 40px;
 }
+.projects-section .projects-container .project-box .button-container .visitbutton-french {
+  padding: 0 10px !important;
+}
 .projects-section .projects-container .project-box .button-container a {
   text-decoration: none;
   color: black;
@@ -373,6 +384,7 @@ body {
   border: 1px solid black;
   width: 130px;
   height: 35px;
+  padding: 0 5px;
   background: white;
   border-radius: 10px;
 }
@@ -506,6 +518,7 @@ body {
   height: 30px;
   background: #F8F7F3;
   margin-left: 3px;
+  padding: 0 7px;
   border-radius: 8px;
   cursor: pointer;
 }

@@ -76,6 +76,7 @@
                 width: 110px;
                 height: 30px;
                 margin: 0 3px 2px 0;
+                padding: 0 7px;
                 background: $beige;
                 border-radius: 8px;
                 cursor: pointer;
@@ -143,6 +144,14 @@
 
             span {
                 display: none;
+            }
+
+            img {
+                margin-right: 5px;
+            }
+
+            a {
+                margin-left: 5px;
             }
         }
 
