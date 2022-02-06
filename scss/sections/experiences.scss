@@ -57,6 +57,10 @@
 
         img {
             margin-bottom: 10px;
+
+            &:hover {
+                transform: scale(1.2);
+            }
         }
         
         p {
@@ -165,6 +169,10 @@
 
             img {
                 transform: scale(0.8);
+
+                &:hover {
+                    transform: scale(1);
+                }
             }
 
             p {

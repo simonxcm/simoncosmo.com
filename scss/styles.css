@@ -751,6 +751,9 @@ body .blackline {
 .experiences-section .experiences-container img {
   margin-bottom: 10px;
 }
+.experiences-section .experiences-container img:hover {
+  transform: scale(1.2);
+}
 .experiences-section .experiences-container p {
   text-align: center;
   width: 550px;
@@ -821,6 +824,9 @@ body .blackline {
   }
   .experiences-section .experiences-container img {
     transform: scale(0.8);
+  }
+  .experiences-section .experiences-container img:hover {
+    transform: scale(1);
   }
   .experiences-section .experiences-container p {
     font-size: 15px;
