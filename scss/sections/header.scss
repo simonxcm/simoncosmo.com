@@ -130,16 +130,19 @@
             .menu-titles {
 
                 display: none;
+                margin-right: 30px;                    
+                transform: translateY(-2%);
+
                 
                 span {
-                    margin: 0 5px;
+                    margin: 0 10px;
                     font-size: 17px;
                 }
             }
 
             .icon {
                 display: block;
-                margin: 3px 0 0 5px;
+                transform: scale(1.2);
             }
 
             .responsive { // to display on burger menu click
@@ -165,13 +168,14 @@
     .header-container {
 
         .left-elements {
+            margin-left: 20px;
 
             .welcome {
                 display: none;   
             }
 
             img {
-                margin-right: 10px;
+                margin-right: 5px;
             }
 
             a {
@@ -186,7 +190,6 @@
     .header-container {
 
         .left-elements {
-
             margin-left: 10px;
 
             span {
@@ -195,6 +198,7 @@
 
             img {
                 margin-right: 5px;
+                transform: scale(0.9);
             }
 
             a {
@@ -203,7 +207,12 @@
         }
 
         .right-elements {
-            margin-right: 10px;
+            margin-right: 5px;
+
+            img {
+                margin-right: 5px;
+                width: 25px;
+            }
         }
     }
 }
