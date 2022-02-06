@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   font-family: "Quicksand", sans-serif;
+  scroll-behavior: smooth;
   /* Quicksand font weights
   - light 300
   - regular 400
@@ -627,6 +628,7 @@ body .blackline {
   margin: 0;
   padding: 0;
   font-family: "Quicksand", sans-serif;
+  scroll-behavior: smooth;
   /* Quicksand font weights
   - light 300
   - regular 400
