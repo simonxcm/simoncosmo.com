@@ -6,22 +6,28 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/scss/styles.css">
         <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="icon" href="/medias/icons/favicon.png">
         <title>Simon Coscino-Mollard Web Developer</title>
     </head>
     <body id="body">
         <div id="header" class="header-container">
-            <div class="left-elements">
-                <img src="/medias/icons/profilepicture50.png" alt="simon-icon">
+            <div id="left-elements" class="left-elements">
+                <a href="#"><img src="/medias/icons/profilepicture50.png" alt="simon-icon"></a>  
                 <span class="welcome"> Welcome! </span>
                 <a href="/homepage-french.html"> <img src="/medias/icons/frenchflag.png" alt="frenchflag"> </a> 
             </div>
-            <div class="middle-elements">
-                <a href="#blackline"><span>Projects</span></a> 
-                <span>Skills</span>
-                <span>Experience</span>
+            <div id="middle-elements" class="middle-elements">
+                <div id="menu-titles" class="menu-titles">
+                    <a href="#blackline1"><span>Projects</span></a> 
+                    <a href="#blackline2"><span>Skills</span></a>    
+                    <a href="#blackline3"><span>Experiences</span></a> 
+                </div>
+                <div class="icon"> <a href="javascript:void(0);" onclick="displayBurger()">
+                    <i class="fa fa-bars"></i></a>
+                </div>
             </div>
-            <div class="right-elements">
+            <div id="right-elements" class="right-elements">
                 <span><a href="https://www.linkedin.com/in/simon-coscino-mollard" target="_blank"><img src="/medias/icons/linkedin.png" alt="linkedin"></a></span>
                 <span><a href="https://github.com/simonxcm" target="_blank"><img src="/medias/icons/github50.png" alt="github"></a></span>
                 <a href="mailto:simon@simoncosmo.com">
@@ -38,7 +44,6 @@
             <h1 class="subtitle">FRONT-END WEB DEVELOPER & DESIGNER</h1>
             <p class="bio"><strong> Seeking a 6-month internship</strong></p>
             <p class="bio">After several years spent working on visual communication and web design projects, I joined Donkey School with the intention of becoming an expert in front-end development and building a high UI/UX design solutions sensibility.</p>
-
             <a href="/medias/cv/cv_simoncoscinomollard_english.pdf" target="_blank">
                 <button>
                     <span class="material-icons-outlined">file_download</span>
@@ -46,7 +51,9 @@
                 </button>
             </a>
         </div>
-        <div class="blackline"></div>
+
+        <div id="blackline1" class="blackline"></div>
+
         <div id="project-section" class="projects-section">
             <h3>Projects</h3>
             <h4>In this section you can see all my projects, the tools and technologies I used and view the repos on Github if available.</h4>
@@ -168,15 +175,13 @@
             </div>
         </div>
 
-        <div class="blackline"></div>
-
+        <div id="blackline2" class="blackline"></div>
 
         <div class="skills-section">
             <h3>Skills</h3>
             <div class="skills-container">
                 <div class="skills-box">
                     <div class="skill-title"><h5>FRAMEWORKS & CMS</h5></div>
-                    
                     <div class="skill-logos">
                         <img src="/medias/icons/skills-icons/angular60.png" alt="angular">
                         <img src="/medias/icons/skills-icons/symfony60.png" alt="symfony">
@@ -184,16 +189,12 @@
                         <img src="/medias/icons/skills-icons/bulma60.png" alt="bulma">
                         <img src="/medias/icons/skills-icons/wordpress60.png" alt="wordpress">
                     </div>
-
                     <div class="skill-text">
                         <p> ANGULAR: development of a web application for calculating rental profitability (in progress), a todo-app with BULMA, a pokédex. Integration of BOOTSTRAP on several projects. WORDPRESS: realisation of 3 projects including a wine cellar with online shop and SumUp payment. SYMFONY: creation of a blog with the API Platform.</p>
-        
                     </div>
                 </div>
-
                 <div class="skills-box">
                     <div class="skill-title"><h5>LANGUAGES</h5></div>
-                    
                     <div class="skill-logos">
                         <img src="/medias/icons/skills-icons/javascript60.png" alt="javascript">
                         <img src="/medias/icons/skills-icons/typescript60.png" alt="typescript">
@@ -202,47 +203,36 @@
                         <img src="/medias/icons/skills-icons/css60.png" alt="css">
                         <img src="/medias/icons/skills-icons/sass60.png" alt="sass">
                     </div>
-
                     <div class="skill-text">
                         <p>Development in TYPESCRIPT on ANGULAR and PHP on SYMFONY. Development of 3 complete portfolios in JAVASCRIPT, CSS/SCSS and HTML.</p>
                     </div>
                 </div>
-
-
                 <div class="skills-box">
-                    <div class="skill-title"><h5>TEAM WORK</h5></div>
-                    
+                    <div class="skill-title"><h5>TEAM WORK</h5></div>                 
                     <div class="skill-logos">
                         <img src="/medias/icons/skills-icons/github60.png" alt="github">
                         <img src="/medias/icons/skills-icons/git60.png" alt="git">
                         <img src="/medias/icons/skills-icons/scrum60.png" alt="scrum">
-
                     </div>
-
                     <div class="skill-text">
                         <p>GIT using terminal on each project and monitoring on GITHUB. Development with AGILE / SCRUM method: user stories, backlogs and sprints.</p>
                     </div>
                 </div>
-
-
                 <div class="skills-box">
-                    <div class="skill-title"><h5>UI/UX DESIGN</h5></div>
-                    
+                    <div class="skill-title"><h5>UI/UX DESIGN</h5></div>                    
                     <div class="skill-logos">
                         <img src="/medias/icons/skills-icons/photoshop60.png" alt="photoshop">
                         <img src="/medias/icons/skills-icons/illustrator60.png" alt="illustrato">
                         <img src="/medias/icons/skills-icons/figma60.png" alt="figma">
                         <img src="/medias/icons/skills-icons/wix60.png" alt="wix">
                     </div>
-
                     <div class="skill-text">
                         <p>Design of models and prototypes with FIGMA or ILLUSTRATOR. Creation of two projects through WIX.</p>
                     </div>
-                </div>
-                    
+                </div>                  
             </div>
         </div>
-        <div class="blackline"></div>
+        <div id="blackline3" class="blackline"></div>
 
         <div class="experiences-section">
             <h3>Experiences</h3>

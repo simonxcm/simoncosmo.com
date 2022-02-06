@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   font-family: "Quicksand", sans-serif;
+  scroll-behavior: smooth;
   /* Quicksand font weights
   - light 300
   - regular 400
@@ -56,6 +57,19 @@ body .blackline {
   padding-top: 80px;
 }
 
+.burger-menu {
+  display: flex;
+  justify-content: center !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  height: auto !important;
+  width: 100% !important;
+}
+
+.display-none {
+  display: none !important;
+}
+
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -91,6 +105,9 @@ body .blackline {
 .header-container .middle-elements span {
   margin: 0 20px 0 20px;
   font-weight: bold;
+}
+.header-container .middle-elements .icon {
+  display: none;
 }
 .header-container .right-elements {
   display: flex;
@@ -131,16 +148,40 @@ body .blackline {
 }
 
 @media (max-width: 880px) {
-  .header-container .middle-elements {
+  .header-container .middle-elements .menu-titles {
     display: none;
+    margin-right: 30px;
+    transform: translateY(-2%);
+  }
+  .header-container .middle-elements .menu-titles span {
+    margin: 0 10px;
+    font-size: 17px;
+  }
+  .header-container .middle-elements .icon {
+    display: block;
+    transform: scale(1.2);
+  }
+  .header-container .middle-elements .responsive {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .header-container .middle-elements .display-burger {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 80px;
   }
 }
 @media (max-width: 500px) {
+  .header-container .left-elements {
+    margin-left: 20px;
+  }
   .header-container .left-elements .welcome {
     display: none;
   }
   .header-container .left-elements img {
-    margin-right: 10px;
+    margin-right: 5px;
   }
   .header-container .left-elements a {
     margin-left: 10px;
@@ -155,12 +196,17 @@ body .blackline {
   }
   .header-container .left-elements img {
     margin-right: 5px;
+    transform: scale(0.9);
   }
   .header-container .left-elements a {
     margin-left: 5px;
   }
   .header-container .right-elements {
-    margin-right: 10px;
+    margin-right: 5px;
+  }
+  .header-container .right-elements img {
+    margin-right: 5px;
+    width: 25px;
   }
 }
 .profile-container {
@@ -582,6 +628,7 @@ body .blackline {
   margin: 0;
   padding: 0;
   font-family: "Quicksand", sans-serif;
+  scroll-behavior: smooth;
   /* Quicksand font weights
   - light 300
   - regular 400

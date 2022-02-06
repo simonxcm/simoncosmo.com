@@ -28,6 +28,38 @@ function myFunction() {
 }
 
 
+// *----------------------------------------------* //
+// *----------------  BURGER MENU  ---------------* //
+// *----------------------------------------------* //
+
+
+function displayBurger() {
+
+    let middleElements = document.getElementById("middle-elements");
+    let navbar = document.getElementById("header");
+    let leftElements = document.getElementById("left-elements");
+    let rightElements = document.getElementById("right-elements");
+    let menuTitles = document.getElementById("menu-titles");
+
+    if (middleElements.className === "middle-elements") {
+        middleElements.className += " responsive";
+        navbar.className += " burger-menu";
+        leftElements.className += " display-none";
+        rightElements.className += " display-none";
+        menuTitles.className += " display-burger";
+
+    } else if (middleElements.className === "middle-elements responsive") {
+        middleElements.className = "middle-elements";
+        navbar.className = " header-container";
+        leftElements.className = " left-elements";
+        rightElements.className = " right-elements";
+        menuTitles.className = " menu-titles";
+    }
+    
+} 
+
+
+
 // *----------------------------------------------------* //
 // *---------------  PLAY VIDEO ON HOVER  --------------* //
 // *----------------------------------------------------* //
