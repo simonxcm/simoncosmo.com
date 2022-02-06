@@ -24,6 +24,24 @@
             margin: 45px 0 25px 0;
         }
 
+        .chrono-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 50px 0;
+
+            h5 {
+                font-weight: 700;
+                margin: 0 30px;
+            }
+
+            .blackline-chrono {
+                height: 1px;
+                width: 100px;
+                background-color: black;
+            }
+        }
+
         h5 {
             font-size: 30px;
             font-weight: 500;
@@ -148,7 +166,6 @@
             img {
                 transform: scale(0.8);
             }
-
 
             p {
                 font-size: 15px;

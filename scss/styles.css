@@ -12,12 +12,29 @@
   - semibold 600
   - bold 700 
   */
+  /* Firefox scrollbar */
+  scrollbar-width: thin;
+  scrollbar-color: black transparent;
+  /* Chrome, Edge, and Safari scroll bar */
+}
+*::-webkit-scrollbar {
+  width: 6px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 20px;
+  border: none;
 }
 
 body {
   background-color: #F8F7F3;
   background-image: radial-gradient(lightgray 5.5%, transparent 0);
   background-size: 30px 30px;
+  height: 100vh;
+  overflow-y: scroll;
 }
 body .blackline {
   width: 350px;
@@ -636,12 +653,29 @@ body .blackline {
   - semibold 600
   - bold 700 
   */
+  /* Firefox scrollbar */
+  scrollbar-width: thin;
+  scrollbar-color: black transparent;
+  /* Chrome, Edge, and Safari scroll bar */
+}
+*::-webkit-scrollbar {
+  width: 6px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 20px;
+  border: none;
 }
 
 body {
   background-color: #F8F7F3;
   background-image: radial-gradient(lightgray 5.5%, transparent 0);
   background-size: 30px 30px;
+  height: 100vh;
+  overflow-y: scroll;
 }
 body .blackline {
   width: 350px;
@@ -687,6 +721,21 @@ body .blackline {
   height: 100px;
   background-color: black;
   margin: 45px 0 25px 0;
+}
+.experiences-section .experiences-container .chrono-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+.experiences-section .experiences-container .chrono-box h5 {
+  font-weight: 700;
+  margin: 0 30px;
+}
+.experiences-section .experiences-container .chrono-box .blackline-chrono {
+  height: 1px;
+  width: 100px;
+  background-color: black;
 }
 .experiences-section .experiences-container h5 {
   font-size: 30px;
