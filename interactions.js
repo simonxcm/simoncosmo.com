@@ -40,6 +40,13 @@ let videoFour = document.getElementById("video-four");
 let videoFive = document.getElementById("video-five"); 
 let videoSix = document.getElementById("video-six"); 
 
+videoOne.load();  
+videoTwo.load();  
+videoThree.load();  
+videoFour.load();  
+videoFive.load();  
+videoSix.load();  
+
 function playVid1()
 { 
     videoOne.play();  
