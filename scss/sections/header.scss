@@ -9,6 +9,19 @@
     padding-top: 80px;
 }
 
+.burger-menu {
+    display: flex;
+    justify-content: center !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    height: auto !important;
+    width: 100% !important;
+}
+
+.display-none {
+    display: none !important;
+}
+
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -50,6 +63,10 @@
         span {
             margin: 0 20px 0 20px;
             font-weight: bold;
+        }
+
+        .icon {
+            display: none; // hidding burger menu icon on desktop
         }
     }
 
@@ -99,6 +116,8 @@
 }
 
 
+
+
 // *---------  MEDIA QUERIES ---------* //
 
 
@@ -108,8 +127,36 @@
 
         .middle-elements {
 
-            display: none;   
+            .menu-titles {
+
+                display: none;
+                
+                span {
+                    margin: 0 5px;
+                    font-size: 17px;
+                }
+            }
+
+            .icon {
+                display: block;
+                margin: 3px 0 0 5px;
+            }
+
+            .responsive { // to display on burger menu click
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+            }
+
+            .display-burger { // to display menu titles on the burger
+                display: flex !important;
+                justify-content: center !important;
+                align-items: center !important;
+                height: 80px;
+            }
         }
+
+       
     }
 }
 
