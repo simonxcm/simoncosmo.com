@@ -205,18 +205,23 @@ body .blackline {
   }
 }
 @media (max-width: 375px) {
+  .header-container {
+    justify-content: center;
+  }
   .header-container .left-elements {
-    margin-left: 10px;
+    margin-left: 0;
   }
   .header-container .left-elements span {
     display: none;
   }
   .header-container .left-elements img {
-    margin-right: 5px;
-    transform: scale(0.9);
+    transform: scale(0.8);
   }
   .header-container .left-elements a {
-    margin-left: 5px;
+    margin-left: 0;
+  }
+  .header-container .middle-elements {
+    margin: 0 20px 0 10px;
   }
   .header-container .right-elements {
     margin-right: 5px;
@@ -807,6 +812,9 @@ body .blackline {
   .experiences-section .experiences-container h5 {
     width: 200px;
   }
+  .experiences-section .experiences-container .chrono-box h5 {
+    width: auto;
+  }
   .experiences-section .experiences-container p {
     font-size: 15px;
     width: 350px;
@@ -842,6 +850,9 @@ body .blackline {
   margin: 100px auto 40px auto;
 }
 
+.footer-container {
+  margin-bottom: 50px;
+}
 .footer-container .bio {
   font-weight: 700;
   text-align: center;

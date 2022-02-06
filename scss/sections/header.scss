@@ -189,21 +189,27 @@
     
     .header-container {
 
+        justify-content: center;
+
         .left-elements {
-            margin-left: 10px;
+            margin-left: 0;
 
             span {
                 display: none;
             }
 
             img {
-                margin-right: 5px;
-                transform: scale(0.9);
+                transform: scale(0.8);
             }
 
             a {
-                margin-left: 5px;
+                margin-left: 0;
             }
+        }
+
+        .middle-elements {
+
+            margin: 0 20px 0 10px ;
         }
 
         .right-elements {
