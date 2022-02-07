@@ -747,13 +747,13 @@ body .blackline {
 .experiences-section .experiences-container h5 {
   font-size: 30px;
   font-weight: 500;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   text-align: center;
 }
 .experiences-section .experiences-container .subtitle {
   font-size: 18px;
   font-weight: 400;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .experiences-section .experiences-container img {
   margin-bottom: 10px;
@@ -780,7 +780,7 @@ body .blackline {
   height: 30px;
   padding: 0 5px;
   background: #F8F7F3;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 .experiences-section .experiences-container a button .material-icons-outlined {
   font-size: 18px;
