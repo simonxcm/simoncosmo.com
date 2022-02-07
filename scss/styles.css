@@ -35,6 +35,7 @@ body {
   background-size: 30px 30px;
   height: 100vh;
   overflow-y: scroll;
+  padding-bottom: 80px;
 }
 body .blackline {
   width: 350px;
@@ -681,6 +682,7 @@ body {
   background-size: 30px 30px;
   height: 100vh;
   overflow-y: scroll;
+  padding-bottom: 80px;
 }
 body .blackline {
   width: 350px;
@@ -850,9 +852,6 @@ body .blackline {
   margin: 100px auto 40px auto;
 }
 
-.footer-container {
-  margin-bottom: 50px;
-}
 .footer-container .bio {
   font-weight: 700;
   text-align: center;
@@ -895,6 +894,10 @@ body .blackline {
 }
 .footer-container .links a button p {
   font-size: 15px;
+}
+.footer-container .bottom-mobile-space {
+  width: 100%;
+  height: 20px;
 }
 
 @media (max-width: 600px) {

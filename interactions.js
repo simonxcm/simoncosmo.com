@@ -50,7 +50,7 @@ function displayBurger() {
 
     } else if (middleElements.className === "middle-elements responsive") {
         middleElements.className = "middle-elements";
-        navbar.className = " header-container";
+        navbar.className = " header-container sticky";
         leftElements.className = " left-elements";
         rightElements.className = " right-elements";
         menuTitles.className = " menu-titles";
