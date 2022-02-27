@@ -104,6 +104,9 @@ body .blackline {
 .header-container .left-elements img {
   width: 40px;
 }
+.header-container .left-elements img:hover {
+  transform: scale(1.1);
+}
 .header-container .left-elements span {
   margin: 0 20px;
   font-weight: bold;
@@ -135,6 +138,9 @@ body .blackline {
 .header-container .right-elements img {
   width: 30px;
   margin-right: 10px;
+}
+.header-container .right-elements img:hover {
+  transform: scale(1.1);
 }
 .header-container .right-elements a {
   text-decoration: none;
@@ -586,7 +592,7 @@ body .blackline {
   transform: scale(0.8);
 }
 .skills-section .skills-container .skills-box .skill-logos img:hover {
-  transform: scale(1);
+  transform: scale(0.9);
 }
 .skills-section .skills-container .skills-box .skill-text {
   margin: 50px auto;
@@ -866,6 +872,9 @@ body .blackline {
 .footer-container .links img {
   width: 30px;
   margin-right: 10px;
+}
+.footer-container .links img:hover {
+  transform: scale(1.1);
 }
 .footer-container .links a {
   color: black;
