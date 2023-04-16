@@ -58,86 +58,25 @@ function displayBurger() {
     
 } 
 
+/// Play videos on hover
 
+const videos = document.querySelectorAll('video');
 
-// *----------------------------------------------------* //
-// *---------------  PLAY VIDEO ON HOVER  --------------* //
-// *----------------------------------------------------* //
+videos.forEach(video => {
+    video.addEventListener('mouseover', () => {
+        video.play();
+    });
+    video.addEventListener('mouseout', () => {
+        video.pause();
+    });
+    video.addEventListener('touchstart', () => {
+        video.play();
+    });
+    video.addEventListener('touchend', () => {
+        video.pause();
+    });
+});
 
-
-let videoOne = document.getElementById("video-one");
-let videoTwo = document.getElementById("video-two");
-let videoThree = document.getElementById("video-three");
-let videoFour = document.getElementById("video-four");
-let videoFive = document.getElementById("video-five"); 
-let videoSix = document.getElementById("video-six"); 
-
-videoOne.load();  
-videoTwo.load();  
-videoThree.load();  
-videoFour.load();  
-videoFive.load();  
-videoSix.load();  
-
-function playVid1()
-{ 
-    videoOne.play();  
-} 
-
-function pauseVid1()
-{ 
-    videoOne.pause();
-}
-
-function playVid2()
-{ 
-    videoTwo.play();  
-} 
-
-function pauseVid2()
-{ 
-    videoTwo.pause();
-}
-
-function playVid3()
-{ 
-    videoThree.play();  
-} 
-
-function pauseVid3()
-{ 
-    videoThree.pause();
-}
-
-function playVid4()
-{ 
-    videoFour.play();  
-} 
-
-function pauseVid4()
-{ 
-    videoFour.pause();
-}
-
-function playVid5()
-{ 
-    videoFive.play();  
-} 
-
-function pauseVid5()
-{ 
-    videoFive.pause();
-}
-
-function playVid6()
-{ 
-    videoSix.play();  
-} 
-
-function pauseVid6()
-{ 
-    videoSix.pause();
-}
 
 
 // *-----------------------------------------------------* //
@@ -147,21 +86,22 @@ function pauseVid6()
 
 let mediaQuery = window.matchMedia("(max-width: 500px)")
 
+let videoInvestimmo = document.getElementById("video-investimmo");
+let videoLaeti = document.getElementById("video-laeti");
+let videoSanta = document.getElementById("video-santa");
+let videoButtercup = document.getElementById("video-buttercup"); 
+
 function changeVideoSource(mediaQuery) {
     if (mediaQuery.matches) { 
-        videoOne.setAttribute('src', '/medias/videos/investimmo-mobile.mp4');
-        videoTwo.setAttribute('src', '/medias/videos/laeti-mobile.mp4');
-        videoThree.setAttribute('src', '/medias/videos/christelo-mobile.mp4');
-        videoFour.setAttribute('src', '/medias/videos/santadeoliveira-mobile.mp4');
-        videoFive.setAttribute('src', '/medias/videos/cestlavie-mobile.mp4');
-        videoSix.setAttribute('src', '/medias/videos/buttercupfarms-mobile.mp4');
+        videoInvestimmo.setAttribute('src', '/medias/videos/investimmo-mobile.mp4');
+        videoLaeti.setAttribute('src', '/medias/videos/laeti-mobile.mp4');
+        videoSanta.setAttribute('src', '/medias/videos/santadeoliveira-mobile.mp4');
+        videoButtercup.setAttribute('src', '/medias/videos/buttercupfarms-mobile.mp4');
     } else {
-        videoOne.setAttribute('src', '/medias/videos/investimmo-tiny.mp4');
-        videoTwo.setAttribute('src', '/medias/videos/laeti-tiny.mp4');
-        videoThree.setAttribute('src', '/medias/videos/christelo-tiny.mp4');
-        videoFour.setAttribute('src', '/medias/videos/santadeoliveira-tiny.mp4');
-        videoFive.setAttribute('src', '/medias/videos/cestlavie-tiny.mp4');
-        videoSix.setAttribute('src', '/medias/videos/buttercupfarms-tiny.mp4');
+        videoInvestimmo.setAttribute('src', '/medias/videos/investimmo-tiny.mp4');
+        videoLaeti.setAttribute('src', '/medias/videos/laeti-tiny.mp4');
+        videoSanta.setAttribute('src', '/medias/videos/santadeoliveira-tiny.mp4');
+        videoButtercup.setAttribute('src', '/medias/videos/buttercupfarms-tiny.mp4');
     }
 }
    

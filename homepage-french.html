@@ -20,9 +20,9 @@
             </div>
             <div id="middle-elements" class="middle-elements">
                 <div id="menu-titles" class="menu-titles">
-                    <a href="#blackline1"><span>Projets</span></a> 
-                    <a href="#blackline2"><span>Compétences</span></a>    
-                    <a href="#blackline3"><span>Expériences</span></a> 
+                    <a href="#mes-projets"><span>Projets</span></a> 
+                    <a href="#mes-competences"><span>Compétences</span></a>    
+                    <a href="#mes-experiences"><span>Expériences</span></a> 
                 </div>
                 <div class="icon"> <a href="javascript:void(0);" onclick="displayBurger()">
                     <i class="fa fa-bars"></i></a>
@@ -39,54 +39,151 @@
                 </a>
             </div>
         </div>
-        
-
         <div id="profile-container" class="profile-container">
             <img src="/medias/icons/profilepicture300.png" alt="simon-profile">
-            <h1>SIMON COSCINO-MOLLARD</h1>
-            <h1 class="subtitle">DEVELOPPEUR WEB FRONT-END & DESIGNER</h1>
-            <p class="bio"><strong> Je suis à la recherche d’un stage de 6 mois</strong></p>
-            <p class="bio">Après plusieurs années passées à travailler sur des projets de communication visuelle et de webdesign, j’ai rejoint Donkey School avec pour projet de devenir un expert en développement front-end et de forger ma sensibilité en UI/UX design.</p>
+            <h1>Simon Coscino-Mollard</h1>
+            <h1 class="subtitle">Junior Creative Developer</h1>
+            <p class="bio">Après plusieurs années passées à travailler sur des projets de communication visuelle et de webdesign, j’ai suivi chez Donkey School une formation en développement web avec l'ambition de devenir un expert en développement front-end créatif. À la suite d'un stage réussi chez Nexton Agency, j'y ai poursuivi l'aventure en tant que développeur front-end afin de relever de nouveau défis techniques et créatifs.</p>
             <a href="/medias/cv/cv_simoncoscinomollard_francais.pdf" target="_blank">
                 <button>
                     <span class="material-icons-outlined">file_download</span>
                     <p>Télécharger CV</p>  
                 </button>
             </a>
-
-            <div id="blackline1" class="blackline"></div>
-
+            <div id="mes-projets" class="blackline"></div>
         </div>
         <div id="project-section" class="projects-section">
             <h3>Projets</h3>
             <h4>Dans cette section, vous pouvez voir tous mes projets, les outils et technologies que j'ai utilisés et consulter les repos sur Github s'ils sont disponibles.</h4>
             <div class="projects-container">
-                <div onmouseenter="playVid1()" onmouseleave="pauseVid1()" ontouchstart="playVid1()" ontouchend="pauseVid1()" class="project-box">
-                    <video id="video-one" src="/medias/videos/investimmo-tiny.mp4" alt="investimmo" loop playsinline muted preload="metadata" poster="/medias/videos/investimmo.jpg"></video>
-                    <h5>Invest'Immo</h5>
-                    <p>Application web avec algorithme de calcul de rentabilité locative, data scraping, paiement Stripe. Design UI/UX avec Figma. 5 devs.</p>
+                <div class="project-box">
+                    <video id="video-nextonconsulting" src="" alt="nexton-consulting" loop playsinline muted preload="metadata" poster=""></video>
+                    <h5>NEXTON Consulting</h5>
+                    <p>Refonte du site web de NEXTON Consulting. Blog administrable. Drupal 10 - Twig / JS</p>
                     <div class="logos-container">
-                        <img src="/medias/icons/angular.png" alt="angular">
-                        <img src="/medias/icons/symfony.png" alt="symfony">
-                        <img src="/medias/icons/typescript.png" alt="typescript">
-                        <img src="/medias/icons/html5.png" alt="typescript">
-                        <img src="/medias/icons/sass.png" alt="typescript">
-                        <img src="/medias/icons/figma.png" alt="figma">
+                        <div class="logo-container">
+                            <img src="/medias/icons/logo-drupal.png" alt="drupal">
+                        </div>
+                        <div class="logo-container">
+                            <img src="/medias/icons/javascript.png" alt="javascript">
+                        </div>
+                        <div class="logo-container">
+                            <img src="/medias/icons/logo-greensock.png" alt="greensock">
+                        </div>
+                        <div class="logo-container">
+                            <img src="/medias/icons/html5.png" alt="html5">
+                        </div>
+                        <div class="logo-container">
+                            <img src="/medias/icons/sass.png" alt="sass">
+                        </div>
                     </div>
                     <div class="button-container">
-                        <a class="disabled" href="#">
-                            <button> Bientôt disponible </button>
+                        <a href="https://www.nexton-consulting.com/" target="_blank">
+                            <button> Voir le site </button>
                         </a>
                     </div>
                 </div>
-                <div onmouseenter="playVid2()" onmouseleave="pauseVid2()" ontouchstart="playVid2()" ontouchend="pauseVid2()" class="project-box">
-                    <video id="video-two" src="/medias/videos/laeti-tiny.mp4" alt="laetitiaouedraogo" loop playsinline muted poster="medias/videos/laeti.jpg"></video>
+                <div class="project-box">
+                    <video id="video-bugali" src="" alt="bugali" loop playsinline muted preload="metadata" poster=""></video>
+                    <h5>Bugali</h5>
+                    <p>Site web de la startup Bugali. Animations et modèle 3D. Création du media "Kidologie" administrable. Drupal 9 - Twig / JS - Three.js</p>
+                    <div class="logos-container">
+                        <div class="logo-container">
+                            <img src="/medias/icons/logo-drupal.png" alt="drupal">
+                        </div>
+                        <div class="logo-container">
+                            <img src="/medias/icons/javascript.png" alt="javascript">
+                        </div>
+                        <div class="logo-container">
+                            <img src="/medias/icons/logo-threejs.png" alt="threejs">
+                        </div>
+                        <div class="logo-container">
+                            <img src="/medias/icons/logo-greensock.png" alt="greensock">
+                        </div>
+                        <div class="logo-container">
+                            <img src="/medias/icons/html5.png" alt="html5">
+                        </div>
+                        <div class="logo-container">
+                            <img src="/medias/icons/sass.png" alt="sass">
+                        </div>
+                    </div>
+                    <div class="button-container">
+                        <a href="https://bugali.com/" target="_blank">
+                            <button> Voir le site </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-box">
+                    <video id="video-nextonagency" src="" alt="nexton-agency" loop playsinline muted preload="metadata" poster=""></video>
+                    <h5>NEXTON Agency</h5>
+                    <p>Refonte du site internet de NEXTON Agency. Animations TS - Full-stack Angular 13 / Laravel. 1 dev.</p>
+                    <div class="logos-container">
+                        <div class="logo-container">
+                            <img src="/medias/icons/angular.png" alt="angular">
+                        </div>
+                        <div class="logo-container">
+                            <img src="/medias/icons/logo-laravel.png" alt="laravel">
+                        </div>
+                        <div class="logo-container">
+                            <img src="/medias/icons/typescript.png" alt="typescript">
+                        </div>
+                        <div class="logo-container">
+                            <img src="/medias/icons/html5.png" alt="typescript">
+                        </div>
+                        <div class="logo-container">
+                            <img src="/medias/icons/sass.png" alt="typescript">
+                        </div>
+                    </div>
+                    <div class="button-container">
+                        <a href="https://www.nexton-agency.com/" target="_blank">
+                            <button> Voir le site </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-box">
+                    <video id="video-investimmo" src="/medias/videos/investimmo-tiny.mp4" alt="investimmo" loop playsinline muted preload="metadata" poster="/medias/videos/investimmo.jpg"></video>
+                    <h5>Invest'Immo</h5>
+                    <p>Application web avec algorithme de calcul de rentabilité locative, data scraping, paiement Stripe. Design UI/UX avec Figma. 5 devs.</p>
+                    <div class="logos-container">
+                        <div class="logo-container">
+                            <img src="/medias/icons/angular.png" alt="angular">
+                        </div>
+                        <div class="logo-container">
+                            <img src="/medias/icons/symfony.png" alt="symfony">
+                        </div>
+                        <div class="logo-container">
+                            <img src="/medias/icons/typescript.png" alt="typescript">
+                        </div>
+                        <div class="logo-container">
+                            <img src="/medias/icons/html5.png" alt="html5">
+                        </div>
+                        <div class="logo-container">
+                            <img src="/medias/icons/sass.png" alt="sass">
+                        </div>
+                        <div class="logo-container">
+                            <img src="/medias/icons/figma.png" alt="figma">
+                        </div>
+                    </div>
+                    <div class="button-container">
+                        <a class="disabled" href="#">
+                            <button> Projet étudiant </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-box">
+                    <video id="video-laeti" src="/medias/videos/laeti-tiny.mp4" alt="laetitiaouedraogo" loop playsinline muted poster="medias/videos/laeti.jpg"></video>
                     <h5>Laetitia Ouedraogo</h5>
                     <p>Portfolio d'une réalisatrice audiovisuelle avec intégration de vidéos HD réactives et adaptation mobile. Design UI/UX avec Figma. Projet solo.</p>
                     <div class="logos-container">
-                        <img src="/medias/icons/javascript.png" alt="javascript">
-                        <img src="/medias/icons/html5.png" alt="html5">
-                        <img src="/medias/icons/sass.png" alt="sass">
+                        <div class="logo-container">
+                            <img src="/medias/icons/javascript.png" alt="javascript">
+                        </div>
+                        <div class="logo-container">
+                            <img src="/medias/icons/html5.png" alt="html5">
+                        </div>
+                        <div class="logo-container">
+                            <img src="/medias/icons/sass.png" alt="sass">
+                        </div>
                     </div>
                     <div class="button-container">
                         <a href="https://laetitiaouedraogo.com/" target="_blank">
@@ -101,31 +198,20 @@
                         </a>
                     </div>
                 </div>
-                <div onmouseenter="playVid3()" onmouseleave="pauseVid3()" ontouchstart="playVid3()" ontouchend="pauseVid3()" class="project-box">
-                    <video id="video-three" src="/medias/videos/christelo-tiny.mp4" alt="christelo" loop playsinline muted poster="/medias/videos/christelo.jpg"></video>
-                    <h5>Christélo</h5>
-                    <p>Cave à vins et spiritueux avec boutique en ligne et paiement SumUp, compte utilisateur et contrôle de l'âge pour accéder au site. 2 devs. </p>
-                    <div class="logos-container">
-                        <img src="/medias/icons/wordpress.png" alt="wordpress">
-                        <img src="/medias/icons/html5.png" alt="html5">
-                        <img src="/medias/icons/css3.png" alt="css3">
-                    </div>
-                    <div class="button-container">
-                        <a href="https://christelo.com/" target="_blank">
-                        <button class="visitbutton-french"><span class="material-icons-outlined">launch</span>
-                            Voir le site
-                        </button>
-                        </a>
-                    </div>
-                </div>
-                <div onmouseenter="playVid4()" onmouseleave="pauseVid4()" ontouchstart="playVid4()" ontouchend="pauseVid4()" class="project-box">
-                    <video id="video-four" src="/medias/videos/santadeoliveira-tiny.mp4" alt="santadeoliveira" loop playsinline muted poster="/medias/videos/santa.jpg"></video>
+                <div class="project-box">
+                    <video id="video-santa" src="/medias/videos/santadeoliveira-tiny.mp4" alt="santadeoliveira" loop playsinline muted poster="/medias/videos/santa.jpg"></video>
                     <h5>Santa De Oliveira</h5>
                     <p>CV en ligne pour un profil en communication événementielle. Intégration de Typeform. Design UI/UX avec Figma. Seul sur le projet.</p>
                     <div class="logos-container">
-                        <img src="/medias/icons/javascript.png" alt="wordpress">
-                        <img src="/medias/icons/html5.png" alt="html5">
-                        <img src="/medias/icons/sass.png" alt="sass">
+                        <div class="logo-container">
+                            <img src="/medias/icons/javascript.png" alt="wordpress">
+                        </div>
+                        <div class="logo-container">
+                            <img src="/medias/icons/html5.png" alt="html5">
+                        </div>
+                        <div class="logo-container">
+                            <img src="/medias/icons/sass.png" alt="sass">
+                        </div>
                     </div>
                     <div class="button-container">
                         <a href="https://santadeoliveira.com" target="_blank">
@@ -140,31 +226,20 @@
                         </a>
                     </div>
                 </div>
-                <div onmouseenter="playVid5()" onmouseleave="pauseVid5()" ontouchstart="playVid5()" ontouchend="pauseVid5()" class="project-box">
-                    <video id="video-five" src="/medias/videos/cestlavie-tiny.mp4" alt="cestlavie" loop playsinline muted poster="/medias/videos/cestlavie.jpg"></video>
-                    <h5>C'est La Vie</h5>
-                    <p>Lancement d'un kiosque de gaufres et de glaces avec solution de Click & Collect GloriaFood. Création de l'identité visuelle. 2 devs.</p>
-                    <div class="logos-container">
-                        <img src="/medias/icons/wordpress.png" alt="wordpress">
-                        <img src="/medias/icons/html5.png" alt="html5">
-                        <img src="/medias/icons/css3.png" alt="css3">
-                    </div>
-                    <div class="button-container">
-                        <a href="https://cestlavie-antibes.fr/" target="_blank">
-                            <button class="visitbutton-french"><span class="material-icons-outlined">launch</span>
-                                Voir le site
-                            </button>
-                        </a>
-                    </div>
-                </div>
-                <div onmouseenter="playVid6()" onmouseleave="pauseVid6()" ontouchstart="playVid6()" ontouchend="pauseVid6()" class="project-box">
-                    <video id="video-six" src="/medias/videos/buttercupfarms-tiny.mp4" alt="buttercup" loop playsinline muted poster="/medias/videos/buttercup.jpg"></video>
+                <div class="project-box">
+                    <video id="video-buttercup" src="/medias/videos/buttercupfarms-tiny.mp4" alt="buttercup" loop playsinline muted poster="/medias/videos/buttercup.jpg"></video>
                     <h5>Buttercup Farms</h5>
                     <p>Association américaine aidant les personnes dans le besoin via le jardinage et la récolte. Identité visuelle, photos et vidéos. Made in San Francisco.</p>
                     <div class="logos-container">
-                        <img src="/medias/icons/wix.png" alt="wix">
-                        <img src="/medias/icons/html5.png" alt="html5">
-                        <img src="/medias/icons/css3.png" alt="css3">
+                        <div class="logo-container">
+                            <img src="/medias/icons/wix.png" alt="wix">
+                        </div>
+                        <div class="logo-container">
+                            <img src="/medias/icons/html5.png" alt="html5">
+                        </div>
+                        <div class="logo-container">
+                            <img src="/medias/icons/css3.png" alt="css3">
+                        </div>
                     </div>
                     <div class="button-container">
                         <a href="https://www.buttercupfarms.org/" target="_blank">
@@ -177,7 +252,7 @@
             </div>
         </div>
 
-        <div id="blackline2" class="blackline"></div>
+        <div id="mes-competences" class="blackline"></div>
 
         <div class="skills-section">
             <h3>Compétences</h3>
@@ -188,13 +263,14 @@
                     </div>
                     <div class="skill-logos">
                         <img src="/medias/icons/skills-icons/angular60.png" alt="angular">
-                        <img src="/medias/icons/skills-icons/symfony60.png" alt="symfony">
-                        <img src="/medias/icons/skills-icons/bootstrap60.png" alt="bootstrap">
-                        <img src="/medias/icons/skills-icons/bulma60.png" alt="bulma">
+                        <img src="/medias/icons/skills-icons/logo-threejs-60.png" alt="three-js">
+                        <img src="/medias/icons/skills-icons/logo-gsap-60.png" alt="logo-greensock">
+                        <img src="/medias/icons/skills-icons/logo-laravel-60.png" alt="logo-laravel">
+                        <img src="/medias/icons/skills-icons/logo-drupal-60.png" alt="logo-drupal">
                         <img src="/medias/icons/skills-icons/wordpress60.png" alt="wordpress">
                     </div>
                     <div class="skill-text">
-                        <p> ANGULAR : développement d’une application web de calcul de rentabilité locative (en cours), d’une todo-app avec BULMA, d’un pokédex. Intégration de BOOTSTRAP sur plusieurs projets. WORDPRESS : réalisation de 3 projets dont une cave à vin avec boutique en ligne et paiement SumUp. SYMFONY : création d’un blog avec l’API Platform.</p>
+                        <p>Développement de deux sites sur une base DRUPAL 9 et 10 avec contenu administrable. Animations parallax, SVG, et modèle 3D contrôlable avec GSAP et THREE.JS. Projet de site agence ANGULAR 13 / LARAVEL.</p>
                     </div>
                 </div>
                 <div class="skills-box">
@@ -210,7 +286,7 @@
                         <img src="/medias/icons/skills-icons/sass60.png" alt="sass">
                     </div>
                     <div class="skill-text">
-                        <p>Développement en TYPESCRIPT sur ANGULAR et PHP sur SYMFONY. Développement de 3 portfolios complets en JAVASCRIPT, CSS/SCSS et HTML.</p>
+                        <p>Développement en TYPESCRIPT sur ANGULAR et PHP sur LARAVEL. Plusieurs projets en vanilla JAVASCRIPT, maîtrise de la structure HTML et du style en CSS/SCSS.</p>
                     </div>
                 </div>
                 <div class="skills-box">
@@ -243,15 +319,29 @@
             </div>
         </div>
 
-        <div id="blackline3" class="blackline"></div>
+        <div id="mes-experiences" class="blackline"></div>
 
         <div class="experiences-section">
             <h3>Expériences</h3>
             <div class="experiences-container">
+                
+                <img src="/medias/icons/logo-nexton-agency.png" alt="nexton-agency">
+                <img src="/medias/icons/logo-nextdev.png" alt="nextdev">
+                <h5>NEXTON Agency</h5>
+                <p class="subtitle">Développeur front-end junior (depuis mars 2022)</p>
+                <p>Développement front, intégration d'animations, SVG animés, modèles 3D contrôlables. Angular / Laravel, Drupal 10 / Javascript avec contenu administable. Membre core-team communauté interne NEXDEV : organisation de meetups, workshops, conferences, revues de code, tests techniques...</p>
+
+                <div class="chrono-box">
+                    <div class="blackline-chrono"></div>
+                    <h5>2022</h5>
+                    <div class="blackline-chrono"></div>
+                </div>
+
                 <img src="/medias/icons/donkeyschool.png" alt="donkeyschool">
                 <h5>Donkey School</h5>
-                <p class="subtitle">Formation intensive en développement web (depuis sept 2021)</p>
+                <p class="subtitle">Formation intensive en développement web <br> (sept 2021 - mars 2022)</p>
                 <p>Frameworks Angular & Symfony, Javascript, Typescript, PHP, HTML5, CSS3, SASS, programmation orientée objet, bases de données, modèles conceptuels de données, design patterns, gestion de projet en approche Agile/Scrum, design UI/UX, Wordpress.</p>
+                
                 <div class="chrono-box">
                     <div class="blackline-chrono"></div>
                     <h5>2021</h5>
@@ -320,7 +410,6 @@
                 <img src="/medias/icons/iim.png" alt="iim">
                 <h5>Master 2 - Management de la Communication Numérique</h5>
                 <p class="subtitle">Institut de l'internet et du Multimédia I.I.M. (2008-2014)</p>
-                <p></p>
             </div>
         </div>
 

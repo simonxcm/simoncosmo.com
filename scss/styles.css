@@ -1,17 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Rubik", sans-serif;
   scroll-behavior: smooth;
-  /* Quicksand font weights
-  - light 300
-  - regular 400
-  - medium 500
-  - semibold 600
-  - bold 700 
-  */
   /* Firefox scrollbar */
   scrollbar-width: thin;
   scrollbar-color: black transparent;
@@ -33,9 +26,7 @@ body {
   background-color: #F8F7F3;
   background-image: radial-gradient(lightgray 5.5%, transparent 0);
   background-size: 30px 30px;
-  height: 100vh;
   overflow-y: scroll;
-  padding-bottom: 80px;
 }
 body .blackline {
   width: 350px;
@@ -279,6 +270,7 @@ body .blackline {
   border-radius: 10px;
   margin-top: 40px;
   padding: 0 10px;
+  cursor: pointer;
 }
 .profile-container a button:hover {
   background-color: black;
@@ -390,7 +382,7 @@ body .blackline {
 .projects-section h3 {
   text-align: center;
   font-size: 40px;
-  margin-top: 80px;
+  margin-top: 40px;
 }
 .projects-section h4 {
   text-align: center;
@@ -438,7 +430,19 @@ body .blackline {
   display: flex;
   justify-content: center;
   margin: 20px auto auto auto;
+  gap: 5px;
+}
+.projects-section .projects-container .project-box .logos-container .logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 30px;
+  height: 30px;
+}
+.projects-section .projects-container .project-box .logos-container .logo-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 .projects-section .projects-container .project-box .button-container {
   display: flex;
@@ -656,15 +660,8 @@ body .blackline {
 * {
   margin: 0;
   padding: 0;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Rubik", sans-serif;
   scroll-behavior: smooth;
-  /* Quicksand font weights
-  - light 300
-  - regular 400
-  - medium 500
-  - semibold 600
-  - bold 700 
-  */
   /* Firefox scrollbar */
   scrollbar-width: thin;
   scrollbar-color: black transparent;
@@ -686,9 +683,7 @@ body {
   background-color: #F8F7F3;
   background-image: radial-gradient(lightgray 5.5%, transparent 0);
   background-size: 30px 30px;
-  height: 100vh;
   overflow-y: scroll;
-  padding-bottom: 80px;
 }
 body .blackline {
   width: 350px;
