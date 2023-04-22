@@ -78,14 +78,15 @@ videos.forEach(video => {
 });
 
 
-
 // *-----------------------------------------------------* //
 // *----------  CHANGE VIDEO SOURCE ON MOBILE  ----------* //
 // *-----------------------------------------------------* //
 
-
 let mediaQuery = window.matchMedia("(max-width: 500px)")
 
+let videoConsulting = document.getElementById("video-nextonconsulting");
+let videoBugali = document.getElementById("video-bugali");
+let videoAgency = document.getElementById("video-nextonagency");
 let videoInvestimmo = document.getElementById("video-investimmo");
 let videoLaeti = document.getElementById("video-laeti");
 let videoSanta = document.getElementById("video-santa");
@@ -93,11 +94,17 @@ let videoButtercup = document.getElementById("video-buttercup");
 
 function changeVideoSource(mediaQuery) {
     if (mediaQuery.matches) { 
+        videoConsulting.setAttribute('src', '/medias/videos/video-nextonconsulting-mobile.mp4');
+        videoBugali.setAttribute('src', '/medias/videos/video-bugali-mobile.mp4');
+        videoAgency.setAttribute('src', '/medias/videos/video-nextonagency-mobile.mp4');
         videoInvestimmo.setAttribute('src', '/medias/videos/investimmo-mobile.mp4');
         videoLaeti.setAttribute('src', '/medias/videos/laeti-mobile.mp4');
         videoSanta.setAttribute('src', '/medias/videos/santadeoliveira-mobile.mp4');
         videoButtercup.setAttribute('src', '/medias/videos/buttercupfarms-mobile.mp4');
     } else {
+        videoConsulting.setAttribute('src', '/medias/videos/video-nextonconsulting-tiny.mp4');
+        videoBugali.setAttribute('src', '/medias/videos/video-bugali-tiny.mp4');
+        videoAgency.setAttribute('src', '/medias/videos/video-nextonagency-tiny.mp4');
         videoInvestimmo.setAttribute('src', '/medias/videos/investimmo-tiny.mp4');
         videoLaeti.setAttribute('src', '/medias/videos/laeti-tiny.mp4');
         videoSanta.setAttribute('src', '/medias/videos/santadeoliveira-tiny.mp4');
